@@ -3,7 +3,11 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    public void LoadSceneByName()
+
+    public void LoadSceneByName(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
