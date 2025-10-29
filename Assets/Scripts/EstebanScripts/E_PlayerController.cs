@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -8,12 +9,20 @@ public class E_PlayerController : MonoBehaviour
     [SerializeField] float moveSpeed = 5f;
 
     float horizontalMovement;
+
+    //
+    [SerializeField] E_DialogueUI dialogueUI;
+    //
+    public bool isChatting;
+    public bool isReadyToChat;
+    //
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
-    private void FixedUpdate()
+    void FixedUpdate()
     {
         rb.linearVelocity = new Vector2(horizontalMovement * moveSpeed, rb.linearVelocity.y);
     }
@@ -24,6 +33,22 @@ public class E_PlayerController : MonoBehaviour
             horizontalMovement = ctx.ReadValue<Vector2>().x ;
         if (ctx.canceled)
             horizontalMovement = 0;
+    }
+    // si la chatbox est ouverte, je demande à passer à la suite / SI on appuie sur a et que la chatbox est ouverte
+    public void InteractInput(InputAction.CallbackContext ctx)
+    {
+        if (ctx.started)
+        {
+            if (isChatting)
+            {
+                isReadyToChat = true;
+                dialogueUI.ShowDialogue(dialogueUI.testDialogue);
+            }
+            else
+            {
+                dialogueUI.dialogueBox.SetActive(true); // Open ChatBox
+            }
+        }
     }
 
     public bool ToggleMovement(bool var)
