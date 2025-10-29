@@ -1,0 +1,1131 @@
+fileFormatVersion: 2
+guid: 3799debeeffac5e44b7e18f812b6a4e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6656340609332209101
+    second: bloody_mary_0
+  - first:
+      213: -993736555878202664
+    second: bloody_mary_1
+  - first:
+      213: -7359961328259922853
+    second: bloody_mary_2
+  - first:
+      213: -5478838138798217482
+    second: bloody_mary_3
+  - first:
+      213: -2792015356687989800
+    second: bloody_mary_4
+  - first:
+      213: -7988040688419562486
+    second: bloody_mary_5
+  - first:
+      213: 7807261362833865550
+    second: bloody_mary_6
+  - first:
+      213: 8032161423532185244
+    second: bloody_mary_7
+  - first:
+      213: 4850079712068219967
+    second: bloody_mary_8
+  - first:
+      213: -4902013246983406373
+    second: bloody_mary_9
+  - first:
+      213: 7853122896756128163
+    second: bloody_mary_10
+  - first:
+      213: -5909673371695391939
+    second: bloody_mary_11
+  - first:
+      213: 3123404672096507935
+    second: bloody_mary_12
+  - first:
+      213: 8752371682891067197
+    second: bloody_mary_13
+  - first:
+      213: -3323063027913029843
+    second: bloody_mary_14
+  - first:
+      213: -8680135170192483074
+    second: bloody_mary_15
+  - first:
+      213: -7859248204815561391
+    second: bloody_mary_16
+  - first:
+      213: -2343139357050293652
+    second: bloody_mary_17
+  - first:
+      213: -1478910301827827328
+    second: bloody_mary_18
+  - first:
+      213: 477434245176453546
+    second: bloody_mary_19
+  - first:
+      213: -8417160940482211396
+    second: bloody_mary_20
+  - first:
+      213: -865729687936441745
+    second: bloody_mary_21
+  - first:
+      213: 2915877031529231571
+    second: bloody_mary_22
+  - first:
+      213: -8601189240476545638
+    second: bloody_mary_23
+  - first:
+      213: 3489456270961918683
+    second: bloody_mary_24
+  - first:
+      213: -4266407932754356489
+    second: bloody_mary_25
+  - first:
+      213: -4618379238928462363
+    second: bloody_mary_26
+  - first:
+      213: 8551874767824349985
+    second: bloody_mary_27
+  - first:
+      213: 2455034527620755150
+    second: bloody_mary_28
+  - first:
+      213: -1698489650284854990
+    second: bloody_mary_29
+  - first:
+      213: -8434055836973875209
+    second: bloody_mary_30
+  - first:
+      213: -3626723601897605555
+    second: bloody_mary_31
+  - first:
+      213: -2085046075748274712
+    second: bloody_mary_32
+  - first:
+      213: -258082016039571644
+    second: bloody_mary_33
+  - first:
+      213: -3662095579044292081
+    second: bloody_mary_34
+  - first:
+      213: 3184918042164970447
+    second: bloody_mary_35
+  - first:
+      213: -353492441041387676
+    second: bloody_mary_36
+  - first:
+      213: -1766946197321510873
+    second: bloody_mary_37
+  - first:
+      213: -6512116868528378667
+    second: bloody_mary_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bloody_mary_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 114
+        width: 48
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5e0437482106c50800000000000000
+      internalID: 6656340609332209101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 114
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d24f821ed98532f0800000000000000
+      internalID: -993736555878202664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 111
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54847caa2a2cd990800000000000000
+      internalID: -7359961328259922853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 111
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6e11badb147f3b0800000000000000
+      internalID: -5478838138798217482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 80
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d34d2963d4c049d0800000000000000
+      internalID: -2792015356687989800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_5
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 79
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c926bf057c42190800000000000000
+      internalID: -7988040688419562486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_6
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 80
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b385848d6f85c60800000000000000
+      internalID: 7807261362833865550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_7
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 79
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c965b3c2248f77f60800000000000000
+      internalID: 8032161423532185244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 80
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34b7222dc1fe4340800000000000000
+      internalID: 4850079712068219967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 80
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc7b418cec88fbb0800000000000000
+      internalID: -4902013246983406373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_10
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 80
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9b2aebaa5ebfc60800000000000000
+      internalID: 7853122896756128163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_11
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 80
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3bd285116f9cfda0800000000000000
+      internalID: -5909673371695391939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 56
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f189b123000985b20800000000000000
+      internalID: 3123404672096507935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_13
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 55
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3fe8ec6caba67970800000000000000
+      internalID: 8752371682891067197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_14
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 56
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27820f48cb12e1d0800000000000000
+      internalID: -3323063027913029843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_15
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 55
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc5d425d07f98780800000000000000
+      internalID: -8680135170192483074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_16
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 56
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d8756d5675ee290800000000000000
+      internalID: -7859248204815561391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_17
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 56
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62b7c35b2f7b7fd0800000000000000
+      internalID: -2343139357050293652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_18
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 56
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089f2e48aead97be0800000000000000
+      internalID: -1478910301827827328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_19
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 56
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9695b9aef20a600800000000000000
+      internalID: 477434245176453546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 32
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1d34d78bc303b80800000000000000
+      internalID: -8417160940482211396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_21
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 32
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62e9078f6f4cf3f0800000000000000
+      internalID: -865729687936441745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_22
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 32
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4350116b6477820800000000000000
+      internalID: 2915877031529231571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_23
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 32
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9dcb73f4ff62a880800000000000000
+      internalID: -8601189240476545638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_24
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 32
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2c1f19df90d6030800000000000000
+      internalID: 3489456270961918683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_25
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 32
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6944de69caac4c0800000000000000
+      internalID: -4266407932754356489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_26
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 32
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed41a92d8838efb0800000000000000
+      internalID: -4618379238928462363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_27
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 32
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12bebc3aacc5ea670800000000000000
+      internalID: 8551874767824349985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece672245e8021220800000000000000
+      internalID: 2455034527620755150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_29
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 8
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231081c79a0cd68e0800000000000000
+      internalID: -1698489650284854990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_30
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 8
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ffbc5dd6e634fa80800000000000000
+      internalID: -8434055836973875209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_31
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 8
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d463e5a691a4badc0800000000000000
+      internalID: -3626723601897605555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_32
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 8
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eda3b224ad6013e0800000000000000
+      internalID: -2085046075748274712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f6b0716cb1b6cf0800000000000000
+      internalID: -258082016039571644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_34
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 8
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a5985397f9d2dc0800000000000000
+      internalID: -3662095579044292081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_35
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 8
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3c9fdb51a133c20800000000000000
+      internalID: 3184918042164970447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_36
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 8
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f31fc6f74281bf0800000000000000
+      internalID: -353492441041387676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_37
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 8
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7209c639bcb8a77e0800000000000000
+      internalID: -1766946197321510873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bloody_mary_38
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc6983f53050a5a0800000000000000
+      internalID: -6512116868528378667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bloody_mary_0: 6656340609332209101
+      bloody_mary_1: -993736555878202664
+      bloody_mary_10: 7853122896756128163
+      bloody_mary_11: -5909673371695391939
+      bloody_mary_12: 3123404672096507935
+      bloody_mary_13: 8752371682891067197
+      bloody_mary_14: -3323063027913029843
+      bloody_mary_15: -8680135170192483074
+      bloody_mary_16: -7859248204815561391
+      bloody_mary_17: -2343139357050293652
+      bloody_mary_18: -1478910301827827328
+      bloody_mary_19: 477434245176453546
+      bloody_mary_2: -7359961328259922853
+      bloody_mary_20: -8417160940482211396
+      bloody_mary_21: -865729687936441745
+      bloody_mary_22: 2915877031529231571
+      bloody_mary_23: -8601189240476545638
+      bloody_mary_24: 3489456270961918683
+      bloody_mary_25: -4266407932754356489
+      bloody_mary_26: -4618379238928462363
+      bloody_mary_27: 8551874767824349985
+      bloody_mary_28: 2455034527620755150
+      bloody_mary_29: -1698489650284854990
+      bloody_mary_3: -5478838138798217482
+      bloody_mary_30: -8434055836973875209
+      bloody_mary_31: -3626723601897605555
+      bloody_mary_32: -2085046075748274712
+      bloody_mary_33: -258082016039571644
+      bloody_mary_34: -3662095579044292081
+      bloody_mary_35: 3184918042164970447
+      bloody_mary_36: -353492441041387676
+      bloody_mary_37: -1766946197321510873
+      bloody_mary_38: -6512116868528378667
+      bloody_mary_4: -2792015356687989800
+      bloody_mary_5: -7988040688419562486
+      bloody_mary_6: 7807261362833865550
+      bloody_mary_7: 8032161423532185244
+      bloody_mary_8: 4850079712068219967
+      bloody_mary_9: -4902013246983406373
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
