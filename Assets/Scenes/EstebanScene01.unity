@@ -482,7 +482,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::E_NPCDialogue
   conversation:
+  - {fileID: 11400000, guid: 5577d96d014b4374b81964b2b4ac3312, type: 2}
+  - {fileID: 11400000, guid: b90f6cfb0c34f97439d4c1776fa4d484, type: 2}
   - {fileID: 11400000, guid: 25371565c481f674a82d00a11b01c037, type: 2}
+  - {fileID: 11400000, guid: 313ba8d577a69a74fae240c0f375bfa9, type: 2}
 --- !u!61 &546800213
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -527,7 +530,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 5, y: 3}
+  m_Size: {x: 7.5, y: 3}
   m_EdgeRadius: 0
 --- !u!114 &606905342
 MonoBehaviour:
@@ -902,7 +905,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 786866716}
-  - component: {fileID: 786866718}
+  - component: {fileID: 786866721}
   - component: {fileID: 786866719}
   - component: {fileID: 786866720}
   m_Layer: 0
@@ -929,27 +932,6 @@ Transform:
   - {fileID: 546800209}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &786866718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 786866714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 642adf2b8147c004587e31f41f1d63b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::E_Dialogue
-  dialogueCanvas: {fileID: 1592985766}
-  speakerText: {fileID: 1694876648}
-  dialogueText: {fileID: 1035373248}
-  portraitImage: {fileID: 2083533986}
-  speaker: []
-  dialogueWords: []
-  portrait: []
-  step: 0
-  dialogueActivate: 0
 --- !u!50 &786866719
 Rigidbody2D:
   serializedVersion: 5
@@ -1014,6 +996,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 2}
   m_Direction: 0
+--- !u!114 &786866721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786866714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 169323b6f84d2c7478ae83cb6ad47a5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::E_PlayerController
+  moveSpeed: 5
 --- !u!1 &812553087
 GameObject:
   m_ObjectHideFlags: 0
@@ -1048,9 +1043,9 @@ RectTransform:
   - {fileID: 2059005549}
   m_Father: {fileID: 930234600}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 685, y: -40}
   m_SizeDelta: {x: 450, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &812553089
@@ -1780,7 +1775,19 @@ MonoBehaviour:
     m_ActionId: 6c2ab1b8-8984-453a-af3d-a3c78ae1679a
     m_ActionName: 'Player/Attack[/Mouse/leftButton,/Keyboard/enter]'
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1308767612}
+        m_TargetAssemblyTypeName: E_AdvancedDialogueManager, Assembly-CSharp
+        m_MethodName: DialogueActivationInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 852140f2-7766-474d-8707-702459ba45f3
     m_ActionName: 'Player/Interact[/Keyboard/e]'
   - m_PersistentCalls:
@@ -1896,9 +1903,9 @@ RectTransform:
   - {fileID: 952480128}
   m_Father: {fileID: 930234600}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1595, y: -40}
   m_SizeDelta: {x: 450, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1268787133
@@ -2211,7 +2218,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1592985767
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2323,7 +2330,7 @@ GameObject:
   - component: {fileID: 1694876649}
   - component: {fileID: 1694876648}
   m_Layer: 5
-  m_Name: SpeakerText
+  m_Name: ActorText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2710,9 +2717,9 @@ RectTransform:
   - {fileID: 1766553143}
   m_Father: {fileID: 930234600}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1140, y: -40}
   m_SizeDelta: {x: 450, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1877144744
@@ -2910,9 +2917,9 @@ RectTransform:
   - {fileID: 736463132}
   m_Father: {fileID: 930234600}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 230, y: -40}
   m_SizeDelta: {x: 450, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2013966578
@@ -3147,7 +3154,7 @@ GameObject:
   - component: {fileID: 2083533987}
   - component: {fileID: 2083533986}
   m_Layer: 5
-  m_Name: Image
+  m_Name: 'Portrait '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
