@@ -2,12 +2,22 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using Unity.VisualScripting;
+using System.Collections.Generic;
 
 public class E_ResponseHandler : MonoBehaviour
 {
     [SerializeField] RectTransform responseBox;
     [SerializeField] RectTransform responseButtonTemplate;
     [SerializeField] RectTransform responseContainer;
+
+    E_DialogueUI dialogueUI;
+
+    List<GameObject> tempResponseButtons = new List<GameObject>();
+
+    private void Start()
+    {
+        dialogueUI = GetComponent<E_DialogueUI>();
+    }
 
     public void ShowResponses(E_Response[] responses)
     {
@@ -20,6 +30,8 @@ public class E_ResponseHandler : MonoBehaviour
             responseButton.GetComponent<TMP_Text>().text = response.ResponseText;
             responseButton.GetComponent<Button>().onClick.AddListener(() => OnPickedResponse(response));
 
+            tempResponseButtons.Add(responseButton); 
+
             responseBoxHeight += responseButtonTemplate.sizeDelta.y;
         }
 
@@ -29,6 +41,13 @@ public class E_ResponseHandler : MonoBehaviour
 
     void OnPickedResponse(E_Response response)
     {
+        responseBox.gameObject.SetActive(false);
 
+        foreach (GameObject button in tempResponseButtons) 
+        { 
+            Destroy(button);
+        }
+
+        dialogueUI.ShowDialogue(response.DialogueObject);
     }
 }

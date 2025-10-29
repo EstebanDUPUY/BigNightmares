@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: No
   m_EditorClassIdentifier: Assembly-CSharp::E_DialogueObject
   dialogue:
-  - 'No
+  - 'You said "No".
 
 '
   responses: []

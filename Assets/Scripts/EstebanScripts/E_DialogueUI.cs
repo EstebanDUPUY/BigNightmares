@@ -29,19 +29,28 @@ public class E_DialogueUI : MonoBehaviour
 
     IEnumerator StepThroughDialogue(E_DialogueObject dialogueObject)
     {
-        foreach (string dialogue in dialogueObject.Dialogue)
-        {
-            yield return typeWriterEffect.Run(dialogue, textLabel);
-            yield return playerController.isReadyToChat;
-        }
+        //foreach (string dialogue in dialogueObject.Dialogue)
+        //{
+        //    yield return typeWriterEffect.Run(dialogue, textLabel);
+        //    yield return playerController.isReadyToChat;
+        //}
 
         for (int i = 0; i < dialogueObject.Dialogue.Length; i++)
         {
             string dialogue = dialogueObject.Dialogue[i];
+            yield return typeWriterEffect.Run(dialogue, textLabel);
 
+            if (i == dialogueObject.Dialogue.Length - 1 && dialogueObject.HasResponses) break; 
+
+            yield return playerController.isReadyToChat;
         }
 
-        CloseDialogueBox();
+        if (dialogueObject.HasResponses)
+        {
+            responseHandler.ShowResponses(dialogueObject.Responses);
+        }
+        else
+            CloseDialogueBox();
     }
 
     void CloseDialogueBox()
