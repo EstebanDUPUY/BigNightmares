@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9e2bd8c915a8054993b757cc84f569e, type: 3}
+  m_Name: Conversation0
+  m_EditorClassIdentifier: Assembly-CSharp::E_AdvancedDialogueSO
+  actors: 03000000
+  randomActorName: 
+  randomActorPortrait: {fileID: 0}
+  dialogue:
+  - Hey!
+  optionsText:
+  - Yo
+  - Hey!
+  - Nah I ain't doing that.
+  option0: {fileID: 11400000, guid: b90f6cfb0c34f97439d4c1776fa4d484, type: 2}
+  option1: {fileID: 11400000, guid: 25371565c481f674a82d00a11b01c037, type: 2}
+  option2: {fileID: 11400000, guid: 313ba8d577a69a74fae240c0f375bfa9, type: 2}
+  option3: {fileID: 0}
