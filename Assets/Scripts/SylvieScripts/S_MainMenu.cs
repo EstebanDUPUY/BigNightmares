@@ -22,7 +22,6 @@ public class S_MainMenu : MonoBehaviour
     public void Play()
     {
         SceneManager.LoadScene("EstebanScene01");
-        S_MusicManager.Instance.PlayMusic("Game");
         S_SoundManager.Instance.PlaySound3D("Menu_Validate", transform.position);
     }
 
