@@ -11,6 +11,8 @@ public class E_ResponseHandler : MonoBehaviour
     [SerializeField] RectTransform responseContainer;
 
     E_DialogueUI dialogueUI;
+    E_Response response;
+    E_PlayerController player;
 
     List<GameObject> tempResponseButtons = new List<GameObject>();
 
@@ -29,6 +31,7 @@ public class E_ResponseHandler : MonoBehaviour
             responseButton.gameObject.SetActive(true);
             responseButton.GetComponent<TMP_Text>().text = response.ResponseText;
             responseButton.GetComponent<Button>().onClick.AddListener(() => OnPickedResponse(response));
+            responseButton.GetComponent<Button>().onClick.AddListener(() => SortValues());
 
             tempResponseButtons.Add(responseButton); 
 
@@ -49,5 +52,14 @@ public class E_ResponseHandler : MonoBehaviour
         }
 
         dialogueUI.ShowDialogue(response.DialogueObject);
+    }
+    
+    // problem 
+    public void SortValues()
+    {
+        if (response.answerPoints > 0)
+            player.positivePoint += response.answerPoints; 
+        if (response.answerPoints < 0)
+            player.negativePoint += response.answerPoints;
     }
 }

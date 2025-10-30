@@ -21,6 +21,11 @@ public class E_PlayerController : MonoBehaviour
     public bool isChatting;
     public bool isReadyToChat;
 
+
+    //
+    public int positivePoint;
+    public int negativePoint;
+
     #region START, UPDATE, ETC . . .
     void Start()
     {

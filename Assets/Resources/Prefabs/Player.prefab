@@ -9,11 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5674726409136599143}
+  - component: {fileID: 4200917080651574804}
   - component: {fileID: 1141098500729777728}
   - component: {fileID: 3340953013875286260}
   - component: {fileID: 271120019733827758}
   - component: {fileID: 8555555314217531161}
-  - component: {fileID: 4200917080651574804}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -37,6 +37,22 @@ Transform:
   - {fileID: 2322749942593581529}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4200917080651574804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4878878941360324069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 169323b6f84d2c7478ae83cb6ad47a5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::E_PlayerController
+  moveSpeed: 5
+  dialogueUI: {fileID: 0}
+  isChatting: 1
+  isReadyToChat: 0
 --- !u!212 &1141098500729777728
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -289,22 +305,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 2}
   m_Direction: 0
---- !u!114 &4200917080651574804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4878878941360324069}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 169323b6f84d2c7478ae83cb6ad47a5b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::E_PlayerController
-  moveSpeed: 5
-  dialogueUI: {fileID: 0}
-  isChatting: 1
-  isReadyToChat: 0
 --- !u!1 &9118714945248248538
 GameObject:
   m_ObjectHideFlags: 0
