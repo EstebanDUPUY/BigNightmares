@@ -8,6 +8,8 @@ public class E_DialogueUI : MonoBehaviour
     public GameObject dialogueBox;
     public E_DialogueObject testDialogue;
 
+    public bool isOpen {  get; private set; }
+
     [Header("Scripts References")]
     [SerializeField] E_PlayerController playerController;
     E_ResponseHandler responseHandler;
@@ -22,6 +24,7 @@ public class E_DialogueUI : MonoBehaviour
 
     public void ShowDialogue(E_DialogueObject dialogueObject)
     {
+       isOpen = true;
        dialogueBox.SetActive(true);
        playerController.isReadyToChat = false;
        StartCoroutine(StepThroughDialogue(dialogueObject));
@@ -55,6 +58,7 @@ public class E_DialogueUI : MonoBehaviour
 
     void CloseDialogueBox()
     {
+        isOpen = false;
         dialogueBox.SetActive(false);
         textLabel.text = string.Empty;
     }
