@@ -17,5 +17,7 @@ MonoBehaviour:
   responses:
   - responseText: Yes
     dialogueObject: {fileID: 11400000, guid: f1505e0cfea9564409cd33bac88f51a4, type: 2}
+    answerPoints: 2
   - responseText: No
     dialogueObject: {fileID: 11400000, guid: 5269ff04b7ae8c54fac3b72e2d0b239b, type: 2}
+    answerPoints: -1

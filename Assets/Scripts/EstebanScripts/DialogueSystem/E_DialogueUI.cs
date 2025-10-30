@@ -7,9 +7,10 @@ public class E_DialogueUI : MonoBehaviour
     [SerializeField] TMP_Text textLabel;
     public GameObject dialogueBox;
     public E_DialogueObject testDialogue;
+    public bool dialogueEnded;
 
     public bool isOpen {  get; private set; }
-
+    
     [Header("Scripts References")]
     [SerializeField] E_PlayerController playerController;
     E_ResponseHandler responseHandler;
@@ -61,5 +62,6 @@ public class E_DialogueUI : MonoBehaviour
         isOpen = false;
         dialogueBox.SetActive(false);
         textLabel.text = string.Empty;
+        dialogueEnded = true;
     }
 }
