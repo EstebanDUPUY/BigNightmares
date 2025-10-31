@@ -6,7 +6,7 @@ public class S_GameOver : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Start()
     {
-        S_MusicManager.Instance.PlayMusic("Credits");
+        S_MusicManager.Instance.PlayMusic("GameOver");
     }
     
     // Méthode pour relancer le jeu

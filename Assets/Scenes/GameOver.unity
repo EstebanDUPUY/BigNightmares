@@ -882,14 +882,14 @@ PrefabInstance:
     - target: {fileID: 2908226311404688438, guid: 5e312b8aa1ab904469004e3f0e32b065, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 157882147}
+      objectReference: {fileID: 1179804213}
     - target: {fileID: 2908226311404688438, guid: 5e312b8aa1ab904469004e3f0e32b065, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Replay
+      value: BackToMainMenu
       objectReference: {fileID: 0}
     - target: {fileID: 2908226311404688438, guid: 5e312b8aa1ab904469004e3f0e32b065, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: S_GameOver, Assembly-CSharp
+      value: SceneLoader, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3530159948681476796, guid: 5e312b8aa1ab904469004e3f0e32b065, type: 3}
       propertyPath: m_text
@@ -909,6 +909,74 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1067391160728300450, guid: 5e312b8aa1ab904469004e3f0e32b065, type: 3}
   m_PrefabInstance: {fileID: 1099532131}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1179804212
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 532059624619599016, guid: 06c2d15157364aa458b65d8ec79f775b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.7679
+      objectReference: {fileID: 0}
+    - target: {fileID: 532059624619599016, guid: 06c2d15157364aa458b65d8ec79f775b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.0281
+      objectReference: {fileID: 0}
+    - target: {fileID: 532059624619599016, guid: 06c2d15157364aa458b65d8ec79f775b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 532059624619599016, guid: 06c2d15157364aa458b65d8ec79f775b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 532059624619599016, guid: 06c2d15157364aa458b65d8ec79f775b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 532059624619599016, guid: 06c2d15157364aa458b65d8ec79f775b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 532059624619599016, guid: 06c2d15157364aa458b65d8ec79f775b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 532059624619599016, guid: 06c2d15157364aa458b65d8ec79f775b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 532059624619599016, guid: 06c2d15157364aa458b65d8ec79f775b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 532059624619599016, guid: 06c2d15157364aa458b65d8ec79f775b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3020687966013522344, guid: 06c2d15157364aa458b65d8ec79f775b, type: 3}
+      propertyPath: m_Name
+      value: SceneLoader
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 06c2d15157364aa458b65d8ec79f775b, type: 3}
+--- !u!114 &1179804213 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2937950835463943113, guid: 06c2d15157364aa458b65d8ec79f775b, type: 3}
+  m_PrefabInstance: {fileID: 1179804212}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1f78f58673dcf841b4b42984752da5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
 --- !u!1001 &1222909614
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1129,3 +1197,4 @@ SceneRoots:
   - {fileID: 1306354330}
   - {fileID: 42502324}
   - {fileID: 1222909614}
+  - {fileID: 1179804212}
