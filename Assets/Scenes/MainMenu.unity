@@ -4591,7 +4591,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Big Horror Nightmares
+  m_text: Horror Big Nightmares
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d997ddcc805600a4480ca37682060554, type: 2}
   m_sharedMaterial: {fileID: -2372654651167840084, guid: d997ddcc805600a4480ca37682060554, type: 2}
