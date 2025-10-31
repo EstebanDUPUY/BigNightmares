@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "InputActionsMap",
+    "maps": [
+        {
+            "name": "UI",
+            "id": "2ac62d4e-b011-44a7-97ce-abf458b48bb2",
+            "actions": [
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "1163351f-4db8-4c8f-b6d0-64dd152c25c1",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c4cd62dd-8380-41b5-879d-3e990b46bcc1",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
