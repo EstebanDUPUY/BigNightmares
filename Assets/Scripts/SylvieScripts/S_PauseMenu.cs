@@ -1,33 +1,33 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 
 public class S_PauseMenu : MonoBehaviour
 {
-    public GameObject container;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] GameObject pauseMenu;
+
+    public void Pause()
     {
-        
+        pauseMenu.SetActive(true);
+        Time.timeScale = 0;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            container.SetActive(true);
-            Time.timeScale = 0;
-        }
-    }
-
-    public void ResumeButton()
-    {
-            container.SetActive(false);
-            Time.timeScale = 1;
-    }
-    
-    public void MainMenuButton()
+    public void Menu()
     {
         SceneManager.LoadScene("MainMenu");
+        Time.timeScale = 1;
+    }
+
+    public void Resume()
+    {
+        pauseMenu.SetActive(false);
+        Time.timeScale = 1;
+    }
+    
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Time.timeScale = 1;
+
     }
 }
