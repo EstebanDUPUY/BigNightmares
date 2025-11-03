@@ -57,6 +57,7 @@ MonoBehaviour:
   textLabel: {fileID: 7996883854677626809}
   dialogueBox: {fileID: 5551958229077086476}
   testDialogue: {fileID: 11400000, guid: 1fa0a919a959c234cbb42d7dc6bd0e41, type: 2}
+  dialogueEnded: 0
   playerController: {fileID: 0}
 --- !u!114 &241532278462915673
 MonoBehaviour:
@@ -86,6 +87,7 @@ MonoBehaviour:
   responseBox: {fileID: 115012244811290165}
   responseButtonTemplate: {fileID: 5954800913537417706}
   responseContainer: {fileID: 1718468689885177133}
+  response: {fileID: 0}
 --- !u!223 &920542932934226674
 Canvas:
   m_ObjectHideFlags: 0
@@ -590,7 +592,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5954800913537417706
 RectTransform:
   m_ObjectHideFlags: 0
@@ -605,10 +607,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1718468689885177133}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 50}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 130, y: -25}
+  m_SizeDelta: {x: 240, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4608212663861944547
 CanvasRenderer:

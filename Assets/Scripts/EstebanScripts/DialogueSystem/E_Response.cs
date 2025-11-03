@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [System.Serializable]
-public class E_Response 
+public class E_Response
 {
     [SerializeField] string responseText;
     [SerializeField] E_DialogueObject dialogueObject;

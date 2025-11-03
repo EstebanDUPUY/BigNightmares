@@ -11,7 +11,7 @@ public class E_ResponseHandler : MonoBehaviour
     [SerializeField] RectTransform responseContainer;
 
     E_DialogueUI dialogueUI;
-    E_Response response;
+    [SerializeField] E_DialogueObject response;
     E_PlayerController player;
 
     List<GameObject> tempResponseButtons = new List<GameObject>();
@@ -25,15 +25,15 @@ public class E_ResponseHandler : MonoBehaviour
     {
         float responseBoxHeight = 0;
 
-        foreach (E_Response response in responses)
+        for (int i = 0; i < responses.Length - 1; i++)
         {
             GameObject responseButton = Instantiate(responseButtonTemplate.gameObject, responseContainer);
             responseButton.gameObject.SetActive(true);
-            responseButton.GetComponent<TMP_Text>().text = response.ResponseText;
-            responseButton.GetComponent<Button>().onClick.AddListener(() => OnPickedResponse(response));
-            responseButton.GetComponent<Button>().onClick.AddListener(() => SortValues());
+            responseButton.GetComponent<TMP_Text>().text = responses[i].ResponseText;
+            responseButton.GetComponent<Button>().onClick.AddListener(() => OnPickedResponse(responses[i]));
+            responseButton.GetComponent<Button>().onClick.AddListener(() => SortValues(responses[i]));
 
-            tempResponseButtons.Add(responseButton); 
+            tempResponseButtons.Add(responseButton);
 
             responseBoxHeight += responseButtonTemplate.sizeDelta.y;
         }
@@ -55,7 +55,7 @@ public class E_ResponseHandler : MonoBehaviour
     }
     
     // problem 
-    public void SortValues()
+    public void SortValues(E_Response response)
     {
         if (response.answerPoints > 0)
             player.positivePoint += response.answerPoints; 

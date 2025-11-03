@@ -19,6 +19,7 @@ public class E_DialogueActivator : MonoBehaviour, E_IInteractable
         if (other.CompareTag("Player") && other.TryGetComponent(out E_PlayerController player))
         {
             player.Interactable = this;
+            
         }  
     }
 

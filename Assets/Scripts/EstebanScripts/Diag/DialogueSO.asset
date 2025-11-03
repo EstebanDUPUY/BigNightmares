@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f9f63fc49a03eb46994c7ee6c924d10, type: 3}
+  m_Name: DialogueSO
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
+  dialogueContainer:
+  - dialogueContent:
+    - eufueugezugfe
+    - ezezfezfzf
+    - zefezez ?
+    answer:
+    - answer: refefrferf
+      points: 2
+    - answer: edzdzedez
+      points: -6
+    rightAnswer: 00000000
+    answerTimer: 45
+    noAnswerPoints: 0
+  - dialogueContent:
+    - ezvccczec
+    - zecezczec
+    - zcezczecz ?
+    answer:
+    - answer: refefrferf
+      points: 2
+    - answer: edzdzedez
+      points: -6
+    rightAnswer: 00000000
+    answerTimer: 45
+    noAnswerPoints: 0

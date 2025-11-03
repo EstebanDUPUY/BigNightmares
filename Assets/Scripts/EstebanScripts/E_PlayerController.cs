@@ -68,7 +68,7 @@ public class E_PlayerController : MonoBehaviour
         if (ctx.started)
         {
             /*
-            if (isChatting && ) // If the chatbox is open 
+            if (isChatting && dialogueUI.dialogueBox.activeInHierarchy == true) // If the chatbox is open 
             {
                 isReadyToChat = true; 
                 dialogueUI.ShowDialogue(dialogueUI.testDialogue); // Begin the dialogue
@@ -78,7 +78,6 @@ public class E_PlayerController : MonoBehaviour
                 dialogueUI.dialogueBox.SetActive(true); // Open ChatBox
             }
             */
-
             Interactable?.Interact(this);
         }
     }
