@@ -11,6 +11,7 @@ public class E_PlayerController : MonoBehaviour
     //
     float horizontalMovement;
 
+/*
     [Header("Dialogue Variables")]
     // Reference to the E_DialogueUI script
     [SerializeField] E_DialogueUI dialogueUI;
@@ -20,11 +21,12 @@ public class E_PlayerController : MonoBehaviour
     // 
     public bool isChatting;
     public bool isReadyToChat;
-
+*/
 
     //
     public int positivePoint;
     public int negativePoint;
+
 
     #region START, UPDATE, ETC . . .
     void Start()
@@ -57,29 +59,28 @@ public class E_PlayerController : MonoBehaviour
     }
     #endregion
 
-    #region DIALOGUE
-    // si la chatbox est ouverte, je demande à passer à la suite / SI on appuie sur a et que la chatbox est ouverte
-    
-    
-    public void InteractInput(InputAction.CallbackContext ctx)
-    {
-        if (dialogueUI.isOpen) return;
 
-        if (ctx.started)
-        {
-            /*
-            if (isChatting && dialogueUI.dialogueBox.activeInHierarchy == true) // If the chatbox is open 
-            {
-                isReadyToChat = true; 
-                dialogueUI.ShowDialogue(dialogueUI.testDialogue); // Begin the dialogue
-            }
-            else // If the chatbox is closed
-            {
-                dialogueUI.dialogueBox.SetActive(true); // Open ChatBox
-            }
-            */
-            Interactable?.Interact(this);
-        }
-    }
-    #endregion  
+    //#region DIALOGUE
+    //// si la chatbox est ouverte, je demande à passer à la suite / SI on appuie sur a et que la chatbox est ouverte
+    //public void InteractInput(InputAction.CallbackContext ctx)
+    //{
+    //    if (dialogueUI.isOpen) return;
+
+    //    if (ctx.started)
+    //    {
+    //        /*
+    //        if (isChatting && dialogueUI.dialogueBox.activeInHierarchy == true) // If the chatbox is open 
+    //        {
+    //            isReadyToChat = true; 
+    //            dialogueUI.ShowDialogue(dialogueUI.testDialogue); // Begin the dialogue
+    //        }
+    //        else // If the chatbox is closed
+    //        {
+    //            dialogueUI.dialogueBox.SetActive(true); // Open ChatBox
+    //        }
+    //        */
+    //        Interactable?.Interact(this);
+    //    }
+    //}
+    //#endregion  
 }

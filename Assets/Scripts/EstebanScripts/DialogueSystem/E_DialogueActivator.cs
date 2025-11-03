@@ -1,3 +1,4 @@
+/*
 using Unity.Cinemachine;
 using UnityEditor.Tilemaps;
 using UnityEngine;
@@ -71,3 +72,5 @@ public class E_DialogueActivator : MonoBehaviour, E_IInteractable
     }
     #endregion
 }
+*
+*/

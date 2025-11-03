@@ -1,3 +1,4 @@
+/*
 using UnityEngine;
 
 public class E_InstantiateFromPoints : MonoBehaviour
@@ -26,3 +27,4 @@ public class E_InstantiateFromPoints : MonoBehaviour
         }
     }
 }
+*/
