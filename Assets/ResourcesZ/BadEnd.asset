@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e16a6b4afd5246d408e85f08aa9a03c5, type: 3}
+  m_Name: BadEnd
+  m_EditorClassIdentifier: Assembly-CSharp::TalkSO
+  sentences:
+  - dialogLines:
+    - Put these foolish ambitions to rest.
+    nameTalk: Margit
+    charaTalk: {fileID: 5378151859528283577, guid: d51272b79fa92714082f1556d188833a, type: 3}
+  choices: []
+  goodOrNextTalkSO: {fileID: 0}
+  badTalkSO: {fileID: 0}
