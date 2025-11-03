@@ -61,9 +61,9 @@ public class E_PlayerController : MonoBehaviour
 
 
     //#region DIALOGUE
-    //// si la chatbox est ouverte, je demande à passer à la suite / SI on appuie sur a et que la chatbox est ouverte
-    //public void InteractInput(InputAction.CallbackContext ctx)
-    //{
+    //// si la chatbox est ouverte, je demande ï¿½ passer ï¿½ la suite / SI on appuie sur a et que la chatbox est ouverte
+    // public void InteractInput(InputAction.CallbackContext ctx)
+    // {
     //    if (dialogueUI.isOpen) return;
 
     //    if (ctx.started)
@@ -81,6 +81,6 @@ public class E_PlayerController : MonoBehaviour
     //        */
     //        Interactable?.Interact(this);
     //    }
-    //}
+    // }
     //#endregion  
 }

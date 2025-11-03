@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class TalkSystem : MonoBehaviour
 {
-
     public TalkSO currentTalkSO;
     public int currentSentenceIndex = 0;
     public int currentLineIndex = 0;
@@ -96,9 +95,9 @@ public class TalkSystem : MonoBehaviour
         }
     }
 
-    public void ReadLine() 
+    public void ReadLine()
     {
-
+        // Affiche la ligne en cours
         dialogText.text = currentTalkSO.sentences[currentSentenceIndex].dialogLines[currentLineIndex];
         nameText.text = currentTalkSO.sentences[currentSentenceIndex].nameTalk;
         imgChara.sprite = currentTalkSO.sentences[currentSentenceIndex].charaTalk;
