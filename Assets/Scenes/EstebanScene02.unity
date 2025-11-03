@@ -119,22 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &148876318 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7238345297312240553, guid: de419d67f1c5ff04fb9ab41bbec13d7e, type: 3}
-  m_PrefabInstance: {fileID: 1674197978}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &256412397 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5203118996083127934, guid: 10fdb4052613f8343824e475b29b1b94, type: 3}
-  m_PrefabInstance: {fileID: 7710138786308991333}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 070c51d899e358e48bffbc958232ec94, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::E_DialogueUI
 --- !u!1 &638044690
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,7 +329,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9453a8cb465e03b4092cab56653e6b7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::E_InstantiateFromPoints
-  followingPart0: {fileID: 148876318}
 --- !u!4 &1450237758
 Transform:
   m_ObjectHideFlags: 0
@@ -516,7 +499,7 @@ PrefabInstance:
     - target: {fileID: 4200917080651574804, guid: 543bb73fd5b380f428633d30f8c1e9f9, type: 3}
       propertyPath: dialogueUI
       value: 
-      objectReference: {fileID: 256412397}
+      objectReference: {fileID: 0}
     - target: {fileID: 4200917080651574804, guid: 543bb73fd5b380f428633d30f8c1e9f9, type: 3}
       propertyPath: isChatting
       value: 0
