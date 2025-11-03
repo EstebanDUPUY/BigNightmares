@@ -1,0 +1,1885 @@
+fileFormatVersion: 2
+guid: 6dcf770392707f348acd17d1de8b8e89
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7598804892749670826
+    second: fire2_64_0
+  - first:
+      213: 6146170629845868585
+    second: fire2_64_1
+  - first:
+      213: 7176654297252274011
+    second: fire2_64_2
+  - first:
+      213: -3186532868582364207
+    second: fire2_64_3
+  - first:
+      213: -4575572662201372749
+    second: fire2_64_4
+  - first:
+      213: 8019327667976731149
+    second: fire2_64_5
+  - first:
+      213: 7970200264332170384
+    second: fire2_64_6
+  - first:
+      213: 6144764505722267973
+    second: fire2_64_7
+  - first:
+      213: 6537059481895493976
+    second: fire2_64_8
+  - first:
+      213: 2458945457574148859
+    second: fire2_64_9
+  - first:
+      213: 1175244551851526273
+    second: fire2_64_10
+  - first:
+      213: -4869954164092147008
+    second: fire2_64_11
+  - first:
+      213: -745182404660135177
+    second: fire2_64_12
+  - first:
+      213: 7705137601801240483
+    second: fire2_64_13
+  - first:
+      213: -2451356976478263953
+    second: fire2_64_14
+  - first:
+      213: 5838105488383526606
+    second: fire2_64_15
+  - first:
+      213: 3878704834815987787
+    second: fire2_64_16
+  - first:
+      213: -2950422211742917374
+    second: fire2_64_17
+  - first:
+      213: -2122041629384198973
+    second: fire2_64_18
+  - first:
+      213: -4038600092065603630
+    second: fire2_64_19
+  - first:
+      213: -5359544309016345734
+    second: fire2_64_20
+  - first:
+      213: 6240090268380530432
+    second: fire2_64_21
+  - first:
+      213: -4870949635931981881
+    second: fire2_64_22
+  - first:
+      213: 1249158335662846261
+    second: fire2_64_23
+  - first:
+      213: -5711868203370318885
+    second: fire2_64_24
+  - first:
+      213: -8884668922108326507
+    second: fire2_64_25
+  - first:
+      213: -2262393532295129943
+    second: fire2_64_26
+  - first:
+      213: -4439280111665253923
+    second: fire2_64_27
+  - first:
+      213: 4512711337222759200
+    second: fire2_64_28
+  - first:
+      213: 7277539404827221415
+    second: fire2_64_29
+  - first:
+      213: -1899932023322290660
+    second: fire2_64_30
+  - first:
+      213: -1088799120466177574
+    second: fire2_64_31
+  - first:
+      213: -1187240687854719194
+    second: fire2_64_32
+  - first:
+      213: 9013288478026733610
+    second: fire2_64_33
+  - first:
+      213: -804044535996971502
+    second: fire2_64_34
+  - first:
+      213: 179445653892346816
+    second: fire2_64_35
+  - first:
+      213: 9133458161703328002
+    second: fire2_64_36
+  - first:
+      213: 1014935968743990901
+    second: fire2_64_37
+  - first:
+      213: 5002389713507308408
+    second: fire2_64_38
+  - first:
+      213: -6403107588554510661
+    second: fire2_64_39
+  - first:
+      213: 3243541539983224696
+    second: fire2_64_40
+  - first:
+      213: 5109272838854488639
+    second: fire2_64_41
+  - first:
+      213: 8331209751767658024
+    second: fire2_64_42
+  - first:
+      213: 6267493498514230345
+    second: fire2_64_43
+  - first:
+      213: 1708338765843682435
+    second: fire2_64_44
+  - first:
+      213: 4645695117128644458
+    second: fire2_64_45
+  - first:
+      213: 8417311200745451014
+    second: fire2_64_46
+  - first:
+      213: 6342423118843765223
+    second: fire2_64_47
+  - first:
+      213: 3305555108117138715
+    second: fire2_64_48
+  - first:
+      213: -8895553792451512922
+    second: fire2_64_49
+  - first:
+      213: -8930146175148555335
+    second: fire2_64_50
+  - first:
+      213: -316776655526495473
+    second: fire2_64_51
+  - first:
+      213: 827436262473157204
+    second: fire2_64_52
+  - first:
+      213: -573108078143978583
+    second: fire2_64_53
+  - first:
+      213: 8374447006679595182
+    second: fire2_64_54
+  - first:
+      213: -6272262984957365431
+    second: fire2_64_55
+  - first:
+      213: -2939954205346939549
+    second: fire2_64_56
+  - first:
+      213: -1533025858206516585
+    second: fire2_64_57
+  - first:
+      213: -8649344509928935126
+    second: fire2_64_58
+  - first:
+      213: -618603378590293333
+    second: fire2_64_59
+  - first:
+      213: -6400589978699917922
+    second: fire2_64_60
+  - first:
+      213: 622880189303819711
+    second: fire2_64_61
+  - first:
+      213: -6333169291036517695
+    second: fire2_64_62
+  - first:
+      213: -5751797593787934481
+    second: fire2_64_63
+  - first:
+      213: 2181739350943727405
+    second: fire2_64_64
+  - first:
+      213: 8778004533979698550
+    second: fire2_64_65
+  - first:
+      213: 5858130381314327616
+    second: fire2_64_66
+  - first:
+      213: -1249586958061393043
+    second: fire2_64_67
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fire2_64_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 326
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa928dd2ac0647960800000000000000
+      internalID: 7598804892749670826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 325
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920e6e0cf959b4550800000000000000
+      internalID: 6146170629845868585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 325
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f908f4f09989360800000000000000
+      internalID: 7176654297252274011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 369
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbaa0f2d3927c3d0800000000000000
+      internalID: -3186532868582364207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_4
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 325
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bfaf79f7ec4080c0800000000000000
+      internalID: -4575572662201372749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_5
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 323
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0af63b96006a4f60800000000000000
+      internalID: 8019327667976731149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_6
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 323
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0945e3899e6db9e60800000000000000
+      internalID: 7970200264332170384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_7
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 323
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5492108f2c6964550800000000000000
+      internalID: 6144764505722267973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_8
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 323
+        width: 25
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851eaf5c6fc48ba50800000000000000
+      internalID: 6537059481895493976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_9
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 323
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa74c89dddef1220800000000000000
+      internalID: 2458945457574148859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_10
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 323
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188c25571be4f4010800000000000000
+      internalID: 1175244551851526273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_11
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 260
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca6ad86d727a6cb0800000000000000
+      internalID: -4869954164092147008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_12
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 260
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa7c551d8498a5f0800000000000000
+      internalID: -745182404660135177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_13
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 260
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af3ed443d52eea60800000000000000
+      internalID: 7705137601801240483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_14
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 261
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f65665751d70bfdd0800000000000000
+      internalID: -2451356976478263953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_15
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 261
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6cb54920e150150800000000000000
+      internalID: 5838105488383526606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_16
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 261
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b401ccb3f7de3d530800000000000000
+      internalID: 3878704834815987787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_17
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 261
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d14a361aefd07d0800000000000000
+      internalID: -2950422211742917374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_18
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 261
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4b6f1916efc82e0800000000000000
+      internalID: -2122041629384198973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_19
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 261
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dfd19a1d9204f7c0800000000000000
+      internalID: -4038600092065603630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_20
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 261
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a734d17d8d21f95b0800000000000000
+      internalID: -5359544309016345734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_21
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 197
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0078135a901499650800000000000000
+      internalID: 6240090268380530432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_22
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 197
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7b47f0d19e66cb0800000000000000
+      internalID: -4870949635931981881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_23
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 198
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531f66153e6e55110800000000000000
+      internalID: 1249158335662846261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 198
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3734eb12e5bb0b0800000000000000
+      internalID: -5711868203370318885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_25
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 199
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59dc7c630b053b480800000000000000
+      internalID: -8884668922108326507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_26
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 198
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4586da11d5a90e0800000000000000
+      internalID: -2262393532295129943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_27
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 198
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd17cbd32428462c0800000000000000
+      internalID: -4439280111665253923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_28
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 199
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0236a054d0f50ae30800000000000000
+      internalID: 4512711337222759200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_29
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 199
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad52a7d7830ff460800000000000000
+      internalID: 7277539404827221415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_30
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 199
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c165c7c14e512a5e0800000000000000
+      internalID: -1899932023322290660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_31
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 135
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad11bd8f7fec3e0f0800000000000000
+      internalID: -1088799120466177574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_32
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 135
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f678972e2168fe0800000000000000
+      internalID: -1187240687854719194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_33
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 134
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2897e6cd12a51d70800000000000000
+      internalID: 9013288478026733610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_34
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 134
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2168e4821c577d4f0800000000000000
+      internalID: -804044535996971502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_35
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 134
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3bdb81fd48d7200800000000000000
+      internalID: 179445653892346816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_36
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 176
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20918339ecf80ce70800000000000000
+      internalID: 9133458161703328002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_37
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 132
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576a0ced2e6c51e00800000000000000
+      internalID: 1014935968743990901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_38
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 132
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873dbadc0fe0c6540800000000000000
+      internalID: 5002389713507308408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_39
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 132
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbea995c2979327a0800000000000000
+      internalID: -6403107588554510661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_40
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 132
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f6ce878df530d20800000000000000
+      internalID: 3243541539983224696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_41
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 132
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32397ca398c7e640800000000000000
+      internalID: 5109272838854488639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_42
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 68
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ea16be0276e9370800000000000000
+      internalID: 8331209751767658024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_43
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 68
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94cc20b512c9af650800000000000000
+      internalID: 6267493498514230345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_44
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 69
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384542e6e0d35b710800000000000000
+      internalID: 1708338765843682435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_45
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 69
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6738375813d87040800000000000000
+      internalID: 4645695117128644458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_46
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 69
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e6954b0fb40d470800000000000000
+      internalID: 8417311200745451014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_47
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 69
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e168e51930d40850800000000000000
+      internalID: 6342423118843765223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_48
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 111
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1dccc47bd0bfdd20800000000000000
+      internalID: 3305555108117138715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_49
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 70
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a57c88d4f4ac8480800000000000000
+      internalID: -8895553792451512922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_50
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 113
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b305fd1e5fb11480800000000000000
+      internalID: -8930146175148555335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_51
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 70
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0bf4366f459a9bf0800000000000000
+      internalID: -316776655526495473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_52
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 70
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a4df295e4ab7b00800000000000000
+      internalID: 827436262473157204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_53
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 71
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a342584d39eb08f0800000000000000
+      internalID: -573108078143978583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_54
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 7
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8787fce23083470800000000000000
+      internalID: 8374447006679595182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_55
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 47
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943f8cb0c0274f8a0800000000000000
+      internalID: -6272262984957365431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_56
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 43
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d316e0a3f2337d0800000000000000
+      internalID: -2939954205346939549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_57
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 49
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79abc12ba1999bae0800000000000000
+      internalID: -1533025858206516585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_58
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 45
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21f5b19efa57f780800000000000000
+      internalID: -8649344509928935126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_59
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 8
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2e44231874a67f0800000000000000
+      internalID: -618603378590293333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_60
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 8
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e959aae73598c27a0800000000000000
+      internalID: -6400589978699917922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_61
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 8
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd05156b3ae4a800800000000000000
+      internalID: 622880189303819711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_62
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 7
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca1b5995101c18a0800000000000000
+      internalID: -6333169291036517695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_63
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 7
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8d25210928d20b0800000000000000
+      internalID: -5751797593787934481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_64
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 5
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ffd7d5168174e10800000000000000
+      internalID: 2181739350943727405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_65
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 5
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675d0a4ad9cb1d970800000000000000
+      internalID: 8778004533979698550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_66
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 7
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0440a2a4b824c4150800000000000000
+      internalID: 5858130381314327616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire2_64_67
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 7
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b2ac0484398aee0800000000000000
+      internalID: -1249586958061393043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fire2_64_0: 7598804892749670826
+      fire2_64_1: 6146170629845868585
+      fire2_64_10: 1175244551851526273
+      fire2_64_11: -4869954164092147008
+      fire2_64_12: -745182404660135177
+      fire2_64_13: 7705137601801240483
+      fire2_64_14: -2451356976478263953
+      fire2_64_15: 5838105488383526606
+      fire2_64_16: 3878704834815987787
+      fire2_64_17: -2950422211742917374
+      fire2_64_18: -2122041629384198973
+      fire2_64_19: -4038600092065603630
+      fire2_64_2: 7176654297252274011
+      fire2_64_20: -5359544309016345734
+      fire2_64_21: 6240090268380530432
+      fire2_64_22: -4870949635931981881
+      fire2_64_23: 1249158335662846261
+      fire2_64_24: -5711868203370318885
+      fire2_64_25: -8884668922108326507
+      fire2_64_26: -2262393532295129943
+      fire2_64_27: -4439280111665253923
+      fire2_64_28: 4512711337222759200
+      fire2_64_29: 7277539404827221415
+      fire2_64_3: -3186532868582364207
+      fire2_64_30: -1899932023322290660
+      fire2_64_31: -1088799120466177574
+      fire2_64_32: -1187240687854719194
+      fire2_64_33: 9013288478026733610
+      fire2_64_34: -804044535996971502
+      fire2_64_35: 179445653892346816
+      fire2_64_36: 9133458161703328002
+      fire2_64_37: 1014935968743990901
+      fire2_64_38: 5002389713507308408
+      fire2_64_39: -6403107588554510661
+      fire2_64_4: -4575572662201372749
+      fire2_64_40: 3243541539983224696
+      fire2_64_41: 5109272838854488639
+      fire2_64_42: 8331209751767658024
+      fire2_64_43: 6267493498514230345
+      fire2_64_44: 1708338765843682435
+      fire2_64_45: 4645695117128644458
+      fire2_64_46: 8417311200745451014
+      fire2_64_47: 6342423118843765223
+      fire2_64_48: 3305555108117138715
+      fire2_64_49: -8895553792451512922
+      fire2_64_5: 8019327667976731149
+      fire2_64_50: -8930146175148555335
+      fire2_64_51: -316776655526495473
+      fire2_64_52: 827436262473157204
+      fire2_64_53: -573108078143978583
+      fire2_64_54: 8374447006679595182
+      fire2_64_55: -6272262984957365431
+      fire2_64_56: -2939954205346939549
+      fire2_64_57: -1533025858206516585
+      fire2_64_58: -8649344509928935126
+      fire2_64_59: -618603378590293333
+      fire2_64_6: 7970200264332170384
+      fire2_64_60: -6400589978699917922
+      fire2_64_61: 622880189303819711
+      fire2_64_62: -6333169291036517695
+      fire2_64_63: -5751797593787934481
+      fire2_64_64: 2181739350943727405
+      fire2_64_65: 8778004533979698550
+      fire2_64_66: 5858130381314327616
+      fire2_64_67: -1249586958061393043
+      fire2_64_7: 6144764505722267973
+      fire2_64_8: 6537059481895493976
+      fire2_64_9: 2458945457574148859
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
