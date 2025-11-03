@@ -6,6 +6,7 @@ TagManager:
   tags:
   - OptionsMenu
   - TalkNPC
+  - TalkNecromancer
   layers:
   - Default
   - TransparentFX

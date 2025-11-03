@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e16a6b4afd5246d408e85f08aa9a03c5, type: 3}
-  m_Name: Dialogue 1
+  m_Name: DialogueJackOLantern
   m_EditorClassIdentifier: Assembly-CSharp::TalkSO
   sentences:
   - dialogLines:
     - Hello Hallokin,
     - If you take this way
-    nameTalk: Hallokin
-    charaTalk: {fileID: 5378151859528283577, guid: d51272b79fa92714082f1556d188833a, type: 3}
+    nameTalk: Jack O Lantern
+    charaTalk: {fileID: -4535294313993171429, guid: 71f3f5a25533c364ca0092e491c49a86, type: 3}
   - dialogLines:
-    - You will discover beautiful things
-    - About your history !
-    nameTalk: Hallokin
-    charaTalk: {fileID: 5378151859528283577, guid: d51272b79fa92714082f1556d188833a, type: 3}
+    - You will discover the land of the necromancian
+    - Maybe the fear will be with you !
+    nameTalk: Jack O Lantern
+    charaTalk: {fileID: -4535294313993171429, guid: 71f3f5a25533c364ca0092e491c49a86, type: 3}
   choices:
   - Take this way !
-  - Return !
+  - Don't take this way.
   goodOrNextTalkSO: {fileID: 11400000, guid: 1329352d7642a6240a8360eb6dcc0e9e, type: 2}
   badTalkSO: {fileID: 11400000, guid: f82c65cb45b8b3347806ce6076a8a8d1, type: 2}

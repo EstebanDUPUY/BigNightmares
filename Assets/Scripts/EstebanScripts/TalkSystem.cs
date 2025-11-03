@@ -2,6 +2,7 @@ using TMPro;
 using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class TalkSystem : MonoBehaviour
@@ -14,6 +15,7 @@ public class TalkSystem : MonoBehaviour
     public TextMeshProUGUI dialogText;
     public TextMeshProUGUI nameText;
     public Image imgChara;
+    public bool isNecromancer = true;
 
     public GameObject[] choicesBtn;
 
@@ -136,9 +138,12 @@ public class TalkSystem : MonoBehaviour
 
         if (choiceIndex == 0)
         {
-          currentTalkSO = currentTalkSO.goodOrNextTalkSO;
-          ReadLine();
+            currentTalkSO = currentTalkSO.goodOrNextTalkSO;
+            ReadLine();
             // -> exterior event
+            ;
+            // Afficher la scène de victoire ?
+            // SceneManager.LoadScene("Victory");
         }
 
         if (choiceIndex == 1)
@@ -146,11 +151,19 @@ public class TalkSystem : MonoBehaviour
             currentTalkSO = currentTalkSO.badTalkSO;
             ReadLine();
             // -> exterior event
+          
+            // Afficher la scène de défaite ?
+            // SceneManager.LoadScene("GameOver");
+
         }
 
         if (currentTalkSO.badTalkSO == null && currentTalkSO.goodOrNextTalkSO == null)
         {
             OpenClosePanel();
+            if (isNecromancer == true)
+            {
+                SceneManager.LoadScene("GameOver");
+            }
             isTalking = false;
         }
 
