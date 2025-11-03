@@ -14,7 +14,7 @@ public class S_MainMenu : MonoBehaviour
 
     public void Start()
     {
-        LoadVolume();
+        
         S_MusicManager.Instance.PlayMusic("MainMenu");
         // Afficher le menu principal
         mainMenu.SetActive(true);
@@ -58,28 +58,5 @@ public class S_MainMenu : MonoBehaviour
 
     }
 
-    public void UpdateMusicVolume(float volume)
-    {
-        audioMixer.SetFloat("MusicVolume", volume);
-    }
-
-    public void UpdateSFXVolume(float volume)
-    {
-        audioMixer.SetFloat("SFXVolume", volume);
-    }
-
-    public void SaveVolume()
-    {
-        audioMixer.GetFloat("MusicVolume", out float musicVolume);
-        PlayerPrefs.SetFloat("MusicVolume", musicVolume);
-
-        audioMixer.GetFloat("SFXVolume", out float sfxVolume);
-        PlayerPrefs.SetFloat("SFXVolume", sfxVolume);
-    }
-
-    public void LoadVolume()
-    {
-        musicSlider.value = PlayerPrefs.GetFloat("MusicVolume");
-        sfxSlider.value = PlayerPrefs.GetFloat("SFXVolume");
-    }
+   
 }
