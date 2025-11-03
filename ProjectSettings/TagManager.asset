@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - OptionsMenu
+  - TalkNPC
   layers:
   - Default
   - TransparentFX

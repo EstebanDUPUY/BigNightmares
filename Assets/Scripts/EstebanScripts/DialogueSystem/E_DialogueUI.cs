@@ -1,3 +1,4 @@
+/*
 using System.Collections;
 using UnityEngine;
 using TMPro;
@@ -65,3 +66,4 @@ public class E_DialogueUI : MonoBehaviour
         dialogueEnded = true;
     }
 }
+*/
