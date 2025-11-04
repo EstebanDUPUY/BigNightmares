@@ -29,6 +29,8 @@ public class E_PlayerController : MonoBehaviour
 
     public Animator animator;
 
+    public SpriteRenderer spriteRenderer;
+
 
     #region START, UPDATE, ETC . . .
     void Start()
@@ -37,6 +39,12 @@ public class E_PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         // Animator
         animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
+    void Update()
+    {
+        Flip();
     }
 
     void FixedUpdate()
@@ -73,7 +81,15 @@ public class E_PlayerController : MonoBehaviour
     }
     #endregion
 
+    private void Flip()
+    {
+        if (horizontalMovement < 0)
+        {
+            spriteRenderer.flipX = true;
+        }
 
+
+    }
     //#region DIALOGUE
     //// si la chatbox est ouverte, je demande � passer � la suite / SI on appuie sur a et que la chatbox est ouverte
     // public void InteractInput(InputAction.CallbackContext ctx)
