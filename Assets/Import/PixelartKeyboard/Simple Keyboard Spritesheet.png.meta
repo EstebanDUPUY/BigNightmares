@@ -1,0 +1,1170 @@
+fileFormatVersion: 2
+guid: 6efc7c4d442ad6343a2f1550d9f5f443
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1641041562705714576
+    second: Simple Keyboard Spritesheet_0
+  - first:
+      213: -1111961130494203983
+    second: Simple Keyboard Spritesheet_1
+  - first:
+      213: -9086567975483081818
+    second: Simple Keyboard Spritesheet_2
+  - first:
+      213: 2932666849186300498
+    second: Simple Keyboard Spritesheet_3
+  - first:
+      213: 7644853256141120780
+    second: Simple Keyboard Spritesheet_4
+  - first:
+      213: -8864997654551861779
+    second: Simple Keyboard Spritesheet_5
+  - first:
+      213: -314356720774851181
+    second: Simple Keyboard Spritesheet_6
+  - first:
+      213: -2465391692790285376
+    second: Simple Keyboard Spritesheet_7
+  - first:
+      213: -1185100521089063089
+    second: Simple Keyboard Spritesheet_8
+  - first:
+      213: 4648727117523485967
+    second: Simple Keyboard Spritesheet_9
+  - first:
+      213: -8544250526754124918
+    second: Simple Keyboard Spritesheet_10
+  - first:
+      213: -6570061412190382748
+    second: Simple Keyboard Spritesheet_11
+  - first:
+      213: -2691437787035374935
+    second: Simple Keyboard Spritesheet_12
+  - first:
+      213: 455530589135712848
+    second: Simple Keyboard Spritesheet_13
+  - first:
+      213: 5676451692326300394
+    second: Simple Keyboard Spritesheet_14
+  - first:
+      213: 1864496758216312622
+    second: Simple Keyboard Spritesheet_15
+  - first:
+      213: -9217183549069484260
+    second: Simple Keyboard Spritesheet_16
+  - first:
+      213: -6303835633633735145
+    second: Simple Keyboard Spritesheet_17
+  - first:
+      213: -1935162857046141322
+    second: Simple Keyboard Spritesheet_18
+  - first:
+      213: -6570068229627809623
+    second: Simple Keyboard Spritesheet_19
+  - first:
+      213: -5022407816556779985
+    second: Simple Keyboard Spritesheet_20
+  - first:
+      213: 6787555271291700417
+    second: Simple Keyboard Spritesheet_21
+  - first:
+      213: -125828313722706553
+    second: Simple Keyboard Spritesheet_22
+  - first:
+      213: 6946262993658674049
+    second: Simple Keyboard Spritesheet_23
+  - first:
+      213: -5878898954586758036
+    second: Simple Keyboard Spritesheet_24
+  - first:
+      213: 448582390461864299
+    second: Simple Keyboard Spritesheet_25
+  - first:
+      213: -9061150701330815342
+    second: Simple Keyboard Spritesheet_26
+  - first:
+      213: 5817107300982836069
+    second: Simple Keyboard Spritesheet_27
+  - first:
+      213: -731674517084629235
+    second: Simple Keyboard Spritesheet_28
+  - first:
+      213: -5469880842514835399
+    second: Simple Keyboard Spritesheet_29
+  - first:
+      213: 7205920463466179632
+    second: Simple Keyboard Spritesheet_30
+  - first:
+      213: 1855063223842442932
+    second: Simple Keyboard Spritesheet_31
+  - first:
+      213: 8685060317077145722
+    second: Simple Keyboard Spritesheet_32
+  - first:
+      213: 4199021981647661792
+    second: Simple Keyboard Spritesheet_33
+  - first:
+      213: 148908165882286549
+    second: Simple Keyboard Spritesheet_34
+  - first:
+      213: 2582696218185320450
+    second: Simple Keyboard Spritesheet_35
+  - first:
+      213: 2906576428315880972
+    second: Simple Keyboard Spritesheet_36
+  - first:
+      213: 7869690319055786421
+    second: Simple Keyboard Spritesheet_37
+  - first:
+      213: -3206412927679470243
+    second: Simple Keyboard Spritesheet_38
+  - first:
+      213: 6218646084474523380
+    second: Simple Keyboard Spritesheet_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 55
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09dd9be4b9626c610800000000000000
+      internalID: 1641041562705714576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 41
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7e9d44e358190f0800000000000000
+      internalID: -1111961130494203983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 55
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6abf3e9a19606e180800000000000000
+      internalID: -9086567975483081818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 41
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252405e16fce2b820800000000000000
+      internalID: 2932666849186300498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 55
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05a7444889f71a60800000000000000
+      internalID: 7644853256141120780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 41
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5e3c91a9339f480800000000000000
+      internalID: -8864997654551861779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 55
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395557d5a3e23abf0800000000000000
+      internalID: -314356720774851181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 41
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb390f415b29cdd0800000000000000
+      internalID: -2465391692790285376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 55
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f472b51ea5dad8fe0800000000000000
+      internalID: -1185100521089063089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 41
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0586b1fea8938040800000000000000
+      internalID: 4648727117523485967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 55
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b40e05a69bc6980800000000000000
+      internalID: -8544250526754124918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 41
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46514ed84f372d4a0800000000000000
+      internalID: -6570061412190382748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 55
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa61b0b79716aad0800000000000000
+      internalID: -2691437787035374935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 41
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05232c548ae525600800000000000000
+      internalID: 455530589135712848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 55
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea26c13dbec6ce40800000000000000
+      internalID: 5676451692326300394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 41
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27c95e4ce500e910800000000000000
+      internalID: 1864496758216312622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 55
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f9328956cf51080800000000000000
+      internalID: -9217183549069484260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 41
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ecfcee3e64488a0800000000000000
+      internalID: -6303835633633735145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 55
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6761c3b62abe425e0800000000000000
+      internalID: -1935162857046141322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 41
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a074fe31cd62d4a0800000000000000
+      internalID: -6570068229627809623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26ecf063b2dc4ab0800000000000000
+      internalID: -5022407816556779985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c40ca6ae8d323e50800000000000000
+      internalID: 6787555271291700417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 27
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7852fd9b0d7f04ef0800000000000000
+      internalID: -125828313722706553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 13
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b777dc365166060800000000000000
+      internalID: 6946262993658674049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 27
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64e07d6c84f96ea0800000000000000
+      internalID: -5878898954586758036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 13
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6999f3be4fa93600800000000000000
+      internalID: 448582390461864299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 27
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29625e6f173504280800000000000000
+      internalID: -9061150701330815342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 13
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bc96715448ab050800000000000000
+      internalID: 5817107300982836069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 27
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0717fd37e198d5f0800000000000000
+      internalID: -731674517084629235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 13
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938503aba541714b0800000000000000
+      internalID: -5469880842514835399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 27
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03cae90ab72900460800000000000000
+      internalID: 7205920463466179632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 13
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be050d6c228eb910800000000000000
+      internalID: 1855063223842442932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 27
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78893cc758878870800000000000000
+      internalID: 8685060317077145722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 13
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea6a24be3ce54a30800000000000000
+      internalID: 4199021981647661792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 27
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1919b1037011200800000000000000
+      internalID: 148908165882286549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 27
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2084ea7d68497d320800000000000000
+      internalID: 2582696218185320450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0eaa42acdb365820800000000000000
+      internalID: 2906576428315880972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 0
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b196a756a1c63d60800000000000000
+      internalID: 7869690319055786421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55e17a3e688083d0800000000000000
+      internalID: -3206412927679470243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Simple Keyboard Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe4af08aa11d4650800000000000000
+      internalID: 6218646084474523380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Simple Keyboard Spritesheet_0: 1641041562705714576
+      Simple Keyboard Spritesheet_1: -1111961130494203983
+      Simple Keyboard Spritesheet_10: -8544250526754124918
+      Simple Keyboard Spritesheet_11: -6570061412190382748
+      Simple Keyboard Spritesheet_12: -2691437787035374935
+      Simple Keyboard Spritesheet_13: 455530589135712848
+      Simple Keyboard Spritesheet_14: 5676451692326300394
+      Simple Keyboard Spritesheet_15: 1864496758216312622
+      Simple Keyboard Spritesheet_16: -9217183549069484260
+      Simple Keyboard Spritesheet_17: -6303835633633735145
+      Simple Keyboard Spritesheet_18: -1935162857046141322
+      Simple Keyboard Spritesheet_19: -6570068229627809623
+      Simple Keyboard Spritesheet_2: -9086567975483081818
+      Simple Keyboard Spritesheet_20: -5022407816556779985
+      Simple Keyboard Spritesheet_21: 6787555271291700417
+      Simple Keyboard Spritesheet_22: -125828313722706553
+      Simple Keyboard Spritesheet_23: 6946262993658674049
+      Simple Keyboard Spritesheet_24: -5878898954586758036
+      Simple Keyboard Spritesheet_25: 448582390461864299
+      Simple Keyboard Spritesheet_26: -9061150701330815342
+      Simple Keyboard Spritesheet_27: 5817107300982836069
+      Simple Keyboard Spritesheet_28: -731674517084629235
+      Simple Keyboard Spritesheet_29: -5469880842514835399
+      Simple Keyboard Spritesheet_3: 2932666849186300498
+      Simple Keyboard Spritesheet_30: 7205920463466179632
+      Simple Keyboard Spritesheet_31: 1855063223842442932
+      Simple Keyboard Spritesheet_32: 8685060317077145722
+      Simple Keyboard Spritesheet_33: 4199021981647661792
+      Simple Keyboard Spritesheet_34: 148908165882286549
+      Simple Keyboard Spritesheet_35: 2582696218185320450
+      Simple Keyboard Spritesheet_36: 2906576428315880972
+      Simple Keyboard Spritesheet_37: 7869690319055786421
+      Simple Keyboard Spritesheet_38: -3206412927679470243
+      Simple Keyboard Spritesheet_39: 6218646084474523380
+      Simple Keyboard Spritesheet_4: 7644853256141120780
+      Simple Keyboard Spritesheet_5: -8864997654551861779
+      Simple Keyboard Spritesheet_6: -314356720774851181
+      Simple Keyboard Spritesheet_7: -2465391692790285376
+      Simple Keyboard Spritesheet_8: -1185100521089063089
+      Simple Keyboard Spritesheet_9: 4648727117523485967
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

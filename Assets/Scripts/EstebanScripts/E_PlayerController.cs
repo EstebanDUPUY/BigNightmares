@@ -27,12 +27,16 @@ public class E_PlayerController : MonoBehaviour
     public int positivePoint;
     public int negativePoint;
 
+    public Animator animator;
+
 
     #region START, UPDATE, ETC . . .
     void Start()
     {
         // Movement Rigidbody
         rb = GetComponent<Rigidbody2D>();
+        // Animator
+        animator = GetComponent<Animator>();
     }
 
     void FixedUpdate()
@@ -49,6 +53,15 @@ public class E_PlayerController : MonoBehaviour
             horizontalMovement = ctx.ReadValue<Vector2>().x ;
         if (ctx.canceled)
             horizontalMovement = 0;
+
+        if (moveSpeed !=0)
+        {
+            animator.SetBool("IsRunning", true);
+        }
+        else
+        {
+            animator.SetBool("IsRunning", false);
+        }
     }
     // Just in case we need to prevent player from moving
     public bool ToggleMovement(bool var)
@@ -56,6 +69,7 @@ public class E_PlayerController : MonoBehaviour
         if (var)
             moveSpeed = 0;
         return var;
+        
     }
     #endregion
 
