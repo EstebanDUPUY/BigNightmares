@@ -1,6 +1,8 @@
+using System.Collections;
 using Unity.VisualScripting;
 using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.InputSystem;
 
 public class E_PlayerController : MonoBehaviour
@@ -31,7 +33,9 @@ public class E_PlayerController : MonoBehaviour
 
     public SpriteRenderer spriteRenderer;
 
-    public AudioSource walkAudioSource;
+    [SerializeField] private AudioSource walkAudioSource;
+
+    [SerializeField] private AudioClip stepSound; 
 
     #region START, UPDATE, ETC . . .
     void Start()
@@ -41,6 +45,7 @@ public class E_PlayerController : MonoBehaviour
         // Animator
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        // Sound
     }
 
     void Update()
@@ -50,14 +55,11 @@ public class E_PlayerController : MonoBehaviour
         // {
         //     S_SoundManager.Instance.PlaySound3D("Walking", transform.position);
         // }
-        if (moveSpeed > 0)
-        {
-            S_SoundManager.Instance.PlaySound3D("Walking", transform.position);
-        }
         // else 
         // {
         //     walkAudioSource.Stop();
         // }
+        
     }
 
     void FixedUpdate()
@@ -71,17 +73,22 @@ public class E_PlayerController : MonoBehaviour
     public void MoveInput(InputAction.CallbackContext ctx)
     {
         if (ctx.performed)
-            horizontalMovement = ctx.ReadValue<Vector2>().x ;
+            horizontalMovement = ctx.ReadValue<Vector2>().x;
         if (ctx.canceled)
             horizontalMovement = 0;
-                
-        if (moveSpeed !=0)
+
+        if (moveSpeed != 0)
         {
             animator.SetBool("IsRunning", true);
         }
         else
         {
             animator.SetBool("IsRunning", false);
+        }
+
+        if (moveSpeed > 0)
+        {
+            OnMoveProduceSound();
         }
     }
     // Just in case we need to prevent player from moving
@@ -100,6 +107,21 @@ public class E_PlayerController : MonoBehaviour
         {
             spriteRenderer.flipX = true;
         }
+    }
+
+    void OnMoveProduceSound()
+    {
+        StopCoroutine(WaitAndWalk(1f));
+        StartCoroutine(WaitAndWalk(1f));
+
+    }   
+
+    private IEnumerator WaitAndWalk(float waitTime)
+    {
+        S_SoundManager.Instance.sfx2DSource.clip = stepSound;
+        S_SoundManager.Instance.sfx2DSource.Play();
+        yield return new WaitForSeconds(waitTime);
+         S_SoundManager.Instance.sfx2DSource.Stop();
     }
 
 
