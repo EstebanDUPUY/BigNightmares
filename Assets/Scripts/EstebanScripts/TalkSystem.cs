@@ -30,13 +30,13 @@ public class TalkSystem : MonoBehaviour
         if (collision.CompareTag("TalkNecromancer") || collision.CompareTag("TalkBadDeath") && !isTalking)
         {
             currentTalkSO = collision.GetComponent<DialogContainer>().talkSO;
-            StartCoroutine(WaitAndGameOver(4f));
+            StartCoroutine(WaitAndGameOver(5f));
         }
 
         if (collision.CompareTag("TalkGoodDeath") && !isTalking)
         {
             currentTalkSO = collision.GetComponent<DialogContainer>().talkSO;
-            StartCoroutine(WaitAndVictory(4f));
+            StartCoroutine(WaitAndVictory(5f));
         }
     }
 
