@@ -16097,6 +16097,79 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &547996957
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 368432165535089400, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774533430187165900, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: soundEffects.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774533430187165900, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: soundEffects.Array.data[0].groupID
+      value: Walking
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774533430187165900, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: soundEffects.Array.data[0].clip.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774533430187165900, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: 'soundEffects.Array.data[0].clip.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 86b0c07716e608c4cb9ad7a722ca0daf, type: 3}
+    - target: {fileID: 7044176852700853359, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -26.37285
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044176852700853359, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.74645
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044176852700853359, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044176852700853359, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044176852700853359, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044176852700853359, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044176852700853359, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044176852700853359, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044176852700853359, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044176852700853359, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
 --- !u!1 &553633141
 GameObject:
   m_ObjectHideFlags: 0
@@ -21952,6 +22025,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPCGhost
       objectReference: {fileID: 0}
+    - target: {fileID: 3050590093295759711, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
+      propertyPath: m_TagString
+      value: TalkNPC
+      objectReference: {fileID: 0}
     - target: {fileID: 6282761731604331505, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -21960,16 +22037,17 @@ PrefabInstance:
       propertyPath: m_Radius
       value: 0.5
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7766373465442404985, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3050590093295759711, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
-      insertIndex: 2
-      addedObject: {fileID: 629627642}
-    - targetCorrespondingSourceObject: {fileID: 3050590093295759711, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
       insertIndex: -1
       addedObject: {fileID: 629627641}
+    - targetCorrespondingSourceObject: {fileID: 3050590093295759711, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 629627646}
   m_SourcePrefab: {fileID: 100100000, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
 --- !u!4 &629627639 stripped
 Transform:
@@ -22003,7 +22081,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &629627642
+--- !u!114 &629627646
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22015,7 +22093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dcd1eb1b72b6f24e85177d4236c6fbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogContainer
-  talkSO: {fileID: 0}
+  talkSO: {fileID: 11400000, guid: f4bdca635bd3df34693b8d6ec0a585a7, type: 2}
 --- !u!1 &633815223
 GameObject:
   m_ObjectHideFlags: 0
@@ -35863,6 +35941,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3050590093295759711, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
+      propertyPath: m_TagString
+      value: TalkGoodDeath
+      objectReference: {fileID: 0}
     - target: {fileID: 6282761731604331505, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -35873,15 +35955,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6876321614086759995, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
       propertyPath: m_Radius
-      value: 0.93
+      value: 0.81175995
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6876321614086759995, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.05912018
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7766373465442404985, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3050590093295759711, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
       insertIndex: -1
       addedObject: {fileID: 838334905}
+    - targetCorrespondingSourceObject: {fileID: 3050590093295759711, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 838334909}
   m_SourcePrefab: {fileID: 100100000, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
 --- !u!4 &838334903 stripped
 Transform:
@@ -35915,6 +36005,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &838334909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838334904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dcd1eb1b72b6f24e85177d4236c6fbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogContainer
+  talkSO: {fileID: 11400000, guid: ae8f5d0728a8821419d90d7a10c9179f, type: 2}
 --- !u!1 &845644457
 GameObject:
   m_ObjectHideFlags: 0
@@ -43845,6 +43948,7 @@ MonoBehaviour:
   dialogText: {fileID: 1690223070}
   nameText: {fileID: 1690223071}
   imgChara: {fileID: 1690223072}
+  isNecromancer: 1
   choicesBtn:
   - {fileID: 1690223069}
   - {fileID: 1690223068}
@@ -48807,7 +48911,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3050590093295759711, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
       propertyPath: m_Name
-      value: NPC
+      value: NPC_BadDeath
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050590093295759711, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
+      propertyPath: m_TagString
+      value: TalkBadDeath
       objectReference: {fileID: 0}
     - target: {fileID: 6282761731604331505, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
       propertyPath: m_Sprite
@@ -48819,7 +48927,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6876321614086759995, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
       propertyPath: m_Radius
-      value: 0.87
+      value: 0.76358414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6876321614086759995, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.011821747
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -48828,6 +48940,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3050590093295759711, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1376890138}
+    - targetCorrespondingSourceObject: {fileID: 3050590093295759711, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1376890142}
   m_SourcePrefab: {fileID: 100100000, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
 --- !u!4 &1376890136 stripped
 Transform:
@@ -48861,6 +48976,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1376890142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376890137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dcd1eb1b72b6f24e85177d4236c6fbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogContainer
+  talkSO: {fileID: 11400000, guid: ca320fb3e29911d499052edad4472906, type: 2}
 --- !u!1 &1397255825
 GameObject:
   m_ObjectHideFlags: 0
@@ -51952,7 +52080,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1491319592
+--- !u!114 &1491319595
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -51964,7 +52092,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dcd1eb1b72b6f24e85177d4236c6fbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogContainer
-  talkSO: {fileID: 0}
+  talkSO: {fileID: 11400000, guid: 2c2ba826af86de348a9e2df24f53f157, type: 2}
 --- !u!1 &1494052081
 GameObject:
   m_ObjectHideFlags: 0
@@ -52308,6 +52436,10 @@ MonoBehaviour:
   moveSpeed: 5
   positivePoint: 0
   negativePoint: 0
+  animator: {fileID: 1521832955}
+  spriteRenderer: {fileID: 1521832953}
+  walkAudioSource: {fileID: 0}
+  stepSound: {fileID: 0}
 --- !u!114 &1521832950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53381,11 +53513,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3050590093295759711, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
       propertyPath: m_Name
-      value: NPC
+      value: NPC_Necromancer
       objectReference: {fileID: 0}
     - target: {fileID: 3050590093295759711, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050590093295759711, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
+      propertyPath: m_TagString
+      value: TalkNecromancer
       objectReference: {fileID: 0}
     - target: {fileID: 6282761731604331505, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
       propertyPath: m_Size.x
@@ -53405,7 +53541,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6876321614086759995, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
       propertyPath: m_Radius
-      value: 1
+      value: 0.94776493
+      objectReference: {fileID: 0}
+    - target: {fileID: 6876321614086759995, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.13089074
+      objectReference: {fileID: 0}
+    - target: {fileID: 6876321614086759995, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.025478363
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7766373465442404985, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
@@ -53418,6 +53562,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3050590093295759711, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1651727799}
+    - targetCorrespondingSourceObject: {fileID: 3050590093295759711, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1651727802}
   m_SourcePrefab: {fileID: 100100000, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
 --- !u!4 &1651727795 stripped
 Transform:
@@ -53446,6 +53593,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1651727802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639282043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dcd1eb1b72b6f24e85177d4236c6fbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogContainer
+  talkSO: {fileID: 11400000, guid: ee670e739097ea749a593f8037d52023, type: 2}
 --- !u!1 &1656719905
 GameObject:
   m_ObjectHideFlags: 0
@@ -55096,6 +55256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPCJack
       objectReference: {fileID: 0}
+    - target: {fileID: 3050590093295759711, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
+      propertyPath: m_TagString
+      value: TalkNPC
+      objectReference: {fileID: 0}
     - target: {fileID: 6282761731604331505, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
       propertyPath: m_FlipX
       value: 1
@@ -55110,7 +55274,15 @@ PrefabInstance:
       objectReference: {fileID: 2158698691298556782, guid: b14b9d52f92e2164dad1b9dee8969755, type: 3}
     - target: {fileID: 6876321614086759995, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
       propertyPath: m_Radius
-      value: 0.5
+      value: 0.22228768
+      objectReference: {fileID: 0}
+    - target: {fileID: 6876321614086759995, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.011108088
+      objectReference: {fileID: 0}
+    - target: {fileID: 6876321614086759995, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.011108542
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7766373465442404985, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
@@ -55118,11 +55290,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3050590093295759711, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
-      insertIndex: 2
-      addedObject: {fileID: 1491319592}
-    - targetCorrespondingSourceObject: {fileID: 3050590093295759711, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1491319591}
+    - targetCorrespondingSourceObject: {fileID: 3050590093295759711, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1491319595}
   m_SourcePrefab: {fileID: 100100000, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
 --- !u!1 &1748974099
 GameObject:
@@ -60245,3 +60417,4 @@ SceneRoots:
   - {fileID: 1368828168}
   - {fileID: 1690223067}
   - {fileID: 647066047}
+  - {fileID: 547996957}
