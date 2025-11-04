@@ -54217,9 +54217,17 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ChoiceMade
       objectReference: {fileID: 0}
+    - target: {fileID: 4164711740059948146, guid: e4cd5ba2cb3eb724ca4e33d0d7f08aa3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5543387252269299902, guid: e4cd5ba2cb3eb724ca4e33d0d7f08aa3, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5565290429239137800, guid: e4cd5ba2cb3eb724ca4e33d0d7f08aa3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9158215288052134881, guid: e4cd5ba2cb3eb724ca4e33d0d7f08aa3, type: 3}
       propertyPath: m_Pivot.x

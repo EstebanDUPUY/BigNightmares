@@ -42,13 +42,12 @@ public class TalkSystem : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("TalkNPC") && !isTalking)
+        if (collision.CompareTag("TalkNPC") || collision.CompareTag("TalkBadDeath") || collision.CompareTag("TalkGoodDeath") && !isTalking)
         {
             ResetTalk();
             currentTalkSO = null;
         }
     }
-
 
     public void Talking(InputAction.CallbackContext context)
     {
@@ -96,7 +95,6 @@ public class TalkSystem : MonoBehaviour
             }
         }
     }
-
 
     public void OpenClosePanel()
     {
@@ -167,10 +165,6 @@ public class TalkSystem : MonoBehaviour
         if (currentTalkSO.badTalkSO == null && currentTalkSO.goodOrNextTalkSO == null)
         {
             OpenClosePanel();
-            // if (isNecromancer == true)
-            // {
-            //     SceneManager.LoadScene("GameOver");
-            // }
             isTalking = false;
         }
 
