@@ -154,9 +154,6 @@ public class TalkSystem : MonoBehaviour
             currentTalkSO = currentTalkSO.goodOrNextTalkSO;
             ReadLine();
             // -> exterior event
-            ;
-            // Afficher la scène de victoire ?
-            // SceneManager.LoadScene("Victory");
         }
 
         if (choiceIndex == 1)
@@ -165,18 +162,15 @@ public class TalkSystem : MonoBehaviour
             ReadLine();
             // -> exterior event
 
-            // Afficher la scène de défaite ?
-            // SceneManager.LoadScene("GameOver");
-
         }
 
         if (currentTalkSO.badTalkSO == null && currentTalkSO.goodOrNextTalkSO == null)
         {
             OpenClosePanel();
-            if (isNecromancer == true)
-            {
-                SceneManager.LoadScene("GameOver");
-            }
+            // if (isNecromancer == true)
+            // {
+            //     SceneManager.LoadScene("GameOver");
+            // }
             isTalking = false;
         }
 
