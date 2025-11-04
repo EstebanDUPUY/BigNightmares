@@ -5857,7 +5857,23 @@ PrefabInstance:
       value: AudioManager
       objectReference: {fileID: 0}
     - target: {fileID: 5774533430187165900, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: soundEffects.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774533430187165900, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: soundEffects.Array.data[1].groupID
+      value: Menu_Validate
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774533430187165900, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: soundEffects.Array.data[1].clip.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774533430187165900, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
       propertyPath: 'soundEffects.Array.data[0].clip.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 9dd5cfb8377775b4a9c9dcfcfe98f349, type: 3}
+    - target: {fileID: 5774533430187165900, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: 'soundEffects.Array.data[1].clip.Array.data[0]'
       value: 
       objectReference: {fileID: 8300000, guid: 9dd5cfb8377775b4a9c9dcfcfe98f349, type: 3}
     - target: {fileID: 7044176852700853359, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}

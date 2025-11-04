@@ -721,7 +721,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4980620882983646462, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4980620882983646462, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
       propertyPath: m_TagString
@@ -917,26 +917,6 @@ PrefabInstance:
     - target: {fileID: 7044176852700853359, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8260698923068823504, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
-      propertyPath: musicTracks.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8260698923068823504, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
-      propertyPath: musicTracks.Array.data[1].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: c8866bf10985b0e4a9be564e8f745574, type: 3}
-    - target: {fileID: 8260698923068823504, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
-      propertyPath: musicTracks.Array.data[2].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: f1712ca5190c8ea44b173435e6bec2bb, type: 3}
-    - target: {fileID: 8260698923068823504, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
-      propertyPath: musicTracks.Array.data[1].trackName
-      value: GameOver
-      objectReference: {fileID: 0}
-    - target: {fileID: 8260698923068823504, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
-      propertyPath: musicTracks.Array.data[2].trackName
-      value: Victory
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1622,7 +1602,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4980620882983646462, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4980620882983646462, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
       propertyPath: m_TagString

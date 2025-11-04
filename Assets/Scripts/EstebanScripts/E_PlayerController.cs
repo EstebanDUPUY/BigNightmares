@@ -31,6 +31,7 @@ public class E_PlayerController : MonoBehaviour
 
     public SpriteRenderer spriteRenderer;
 
+    public AudioSource walkAudioSource;
 
     #region START, UPDATE, ETC . . .
     void Start()
@@ -45,6 +46,18 @@ public class E_PlayerController : MonoBehaviour
     void Update()
     {
         Flip();
+        // while (moveSpeed != 0)
+        // {
+        //     S_SoundManager.Instance.PlaySound3D("Walking", transform.position);
+        // }
+        if (moveSpeed > 0)
+        {
+            S_SoundManager.Instance.PlaySound3D("Walking", transform.position);
+        }
+        // else 
+        // {
+        //     walkAudioSource.Stop();
+        // }
     }
 
     void FixedUpdate()
@@ -61,7 +74,7 @@ public class E_PlayerController : MonoBehaviour
             horizontalMovement = ctx.ReadValue<Vector2>().x ;
         if (ctx.canceled)
             horizontalMovement = 0;
-
+                
         if (moveSpeed !=0)
         {
             animator.SetBool("IsRunning", true);
@@ -87,9 +100,9 @@ public class E_PlayerController : MonoBehaviour
         {
             spriteRenderer.flipX = true;
         }
-
-
     }
+
+
     //#region DIALOGUE
     //// si la chatbox est ouverte, je demande � passer � la suite / SI on appuie sur a et que la chatbox est ouverte
     // public void InteractInput(InputAction.CallbackContext ctx)
