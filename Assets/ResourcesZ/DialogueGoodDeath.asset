@@ -10,19 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e16a6b4afd5246d408e85f08aa9a03c5, type: 3}
-  m_Name: DialogueNecromancian
+  m_Name: DialogueGoodDeath
   m_EditorClassIdentifier: Assembly-CSharp::TalkSO
   sentences:
   - dialogLines:
     - Hello Hallokin,
-    - Welcome to my way
-    nameTalk: Necromancer
-    charaTalk: {fileID: 1979232534141036308, guid: cbb298168156caa47b95ee7dc65fcf65, type: 3}
+    - I am the death
+    nameTalk: Good Death
+    charaTalk: {fileID: 4665337634912722025, guid: 680274c871b33bf41853ba819e89baa7, type: 3}
   - dialogLines:
-    - I am the necromancer
-    - And you will die today !!!
-    nameTalk: Necromancer
-    charaTalk: {fileID: -4549297002301125287, guid: cbb298168156caa47b95ee7dc65fcf65, type: 3}
+    - But i will guid to the paradise
+    - No more sorrow for you !
+    - Welcome and enjoy !
+    nameTalk: Good Death
+    charaTalk: {fileID: 4665337634912722025, guid: 680274c871b33bf41853ba819e89baa7, type: 3}
   choices:
   - Take this way !
   - Return !

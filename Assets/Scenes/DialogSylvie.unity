@@ -187,6 +187,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PNJ_2_Jack
       objectReference: {fileID: 0}
+    - target: {fileID: 4980620882983646462, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5962536892314436133, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -278,7 +282,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4980620882983646462, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5962536892314436133, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
       propertyPath: m_IsTrigger
@@ -404,6 +408,92 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &802243444
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4124396493590048938, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: talkSO
+      value: 
+      objectReference: {fileID: 11400000, guid: ae8f5d0728a8821419d90d7a10c9179f, type: 2}
+    - target: {fileID: 4371663516731050156, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371663516731050156, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371663516731050156, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371663516731050156, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371663516731050156, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371663516731050156, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371663516731050156, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371663516731050156, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371663516731050156, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371663516731050156, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622393304054796486, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622393304054796486, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_Color.g
+      value: 0.70389724
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622393304054796486, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4980620882983646462, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_Name
+      value: PNJ_5_Good_Death
+      objectReference: {fileID: 0}
+    - target: {fileID: 4980620882983646462, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4980620882983646462, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_TagString
+      value: TalkNecromancer
+      objectReference: {fileID: 0}
+    - target: {fileID: 5962536892314436133, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 150854666380743585, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
 --- !u!1 &1000183392
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,6 +666,92 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de419d67f1c5ff04fb9ab41bbec13d7e, type: 3}
+--- !u!1001 &1529015828
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4124396493590048938, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: talkSO
+      value: 
+      objectReference: {fileID: 11400000, guid: ca320fb3e29911d499052edad4472906, type: 2}
+    - target: {fileID: 4371663516731050156, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371663516731050156, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371663516731050156, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371663516731050156, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371663516731050156, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371663516731050156, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371663516731050156, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371663516731050156, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371663516731050156, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371663516731050156, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622393304054796486, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622393304054796486, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622393304054796486, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4980620882983646462, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_Name
+      value: PNJ_6_Bad_Death
+      objectReference: {fileID: 0}
+    - target: {fileID: 4980620882983646462, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4980620882983646462, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_TagString
+      value: TalkNecromancer
+      objectReference: {fileID: 0}
+    - target: {fileID: 5962536892314436133, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 150854666380743585, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
 --- !u!1001 &1730224621
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -587,7 +763,7 @@ PrefabInstance:
     - target: {fileID: 4124396493590048938, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
       propertyPath: talkSO
       value: 
-      objectReference: {fileID: 11400000, guid: f4bdca635bd3df34693b8d6ec0a585a7, type: 2}
+      objectReference: {fileID: 11400000, guid: ee670e739097ea749a593f8037d52023, type: 2}
     - target: {fileID: 4371663516731050156, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.45
@@ -647,6 +823,10 @@ PrefabInstance:
     - target: {fileID: 4980620882983646462, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4980620882983646462, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_TagString
+      value: TalkNecromancer
       objectReference: {fileID: 0}
     - target: {fileID: 5962536892314436133, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
       propertyPath: m_IsTrigger
@@ -742,6 +922,10 @@ PrefabInstance:
     - target: {fileID: 4980620882983646462, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
       propertyPath: m_Name
       value: PNJ_1_Magik
+      objectReference: {fileID: 0}
+    - target: {fileID: 4980620882983646462, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5962536892314436133, guid: a009035eca72e2d43bd77ec6bd3a83bd, type: 3}
       propertyPath: m_IsTrigger
@@ -961,6 +1145,8 @@ SceneRoots:
   - {fileID: 134001392}
   - {fileID: 267910225}
   - {fileID: 1730224621}
+  - {fileID: 802243444}
+  - {fileID: 1529015828}
   - {fileID: 1797519314477612367}
   - {fileID: 1000183395}
   - {fileID: 1316764549}

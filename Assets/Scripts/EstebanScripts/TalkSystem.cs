@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System.Collections;
 
 public class TalkSystem : MonoBehaviour
 {
@@ -24,6 +25,24 @@ public class TalkSystem : MonoBehaviour
         if (collision.CompareTag("TalkNPC") && !isTalking)
         {
             currentTalkSO = collision.GetComponent<DialogContainer>().talkSO;
+        }
+
+        if (collision.CompareTag("TalkNecromancer") && !isTalking)
+        {
+            currentTalkSO = collision.GetComponent<DialogContainer>().talkSO;
+            StartCoroutine(WaitAndGameOver(4f));
+        }
+
+        if (collision.CompareTag("BadDeath") && !isTalking)
+        {
+            currentTalkSO = collision.GetComponent<DialogContainer>().talkSO;
+            StartCoroutine(WaitAndGameOver(4f));
+        }
+
+        if (collision.CompareTag("GoodDeath") && !isTalking)
+        {
+            currentTalkSO = collision.GetComponent<DialogContainer>().talkSO;
+            StartCoroutine(WaitAndVictory(4f));
         }
     }
 
@@ -151,7 +170,7 @@ public class TalkSystem : MonoBehaviour
             currentTalkSO = currentTalkSO.badTalkSO;
             ReadLine();
             // -> exterior event
-          
+
             // Afficher la scène de défaite ?
             // SceneManager.LoadScene("GameOver");
 
@@ -167,6 +186,28 @@ public class TalkSystem : MonoBehaviour
             isTalking = false;
         }
 
+    }
+
+    private IEnumerator WaitAndGameOver(float waitTime)
+    {
+        //Boucle infinie
+        while (true)
+        {
+            yield return new WaitForSeconds(waitTime);
+            print("Attend, puis affiche " + Time.time);
+            SceneManager.LoadScene("GameOver");
+        }
+    }
+    
+    private IEnumerator WaitAndVictory(float waitTime)
+    {
+        //Boucle infinie
+        while (true)
+        {
+            yield return new WaitForSeconds(waitTime);
+            print("Attend, puis affiche " + Time.time);
+            SceneManager.LoadScene("Victory");
+        }
     }
 
 }
