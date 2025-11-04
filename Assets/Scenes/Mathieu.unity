@@ -16111,20 +16111,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5774533430187165900, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
       propertyPath: soundEffects.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5774533430187165900, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
       propertyPath: soundEffects.Array.data[0].groupID
       value: Walking
       objectReference: {fileID: 0}
     - target: {fileID: 5774533430187165900, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: soundEffects.Array.data[1].groupID
+      value: Menu_Validate
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774533430187165900, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
       propertyPath: soundEffects.Array.data[0].clip.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774533430187165900, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: soundEffects.Array.data[1].clip.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5774533430187165900, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
       propertyPath: 'soundEffects.Array.data[0].clip.Array.data[0]'
       value: 
       objectReference: {fileID: 8300000, guid: 86b0c07716e608c4cb9ad7a722ca0daf, type: 3}
+    - target: {fileID: 5774533430187165900, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: 'soundEffects.Array.data[1].clip.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 035b29595f3d93a458eae6caaecade1d, type: 3}
     - target: {fileID: 7044176852700853359, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -26.37285
@@ -16164,6 +16176,26 @@ PrefabInstance:
     - target: {fileID: 7044176852700853359, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260698923068823504, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: musicTracks.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260698923068823504, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: musicTracks.Array.data[1].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: c8866bf10985b0e4a9be564e8f745574, type: 3}
+    - target: {fileID: 8260698923068823504, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: musicTracks.Array.data[2].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: f1712ca5190c8ea44b173435e6bec2bb, type: 3}
+    - target: {fileID: 8260698923068823504, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: musicTracks.Array.data[1].trackName
+      value: GameOver
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260698923068823504, guid: f33c250a3647e6e468db1e2bebb308c0, type: 3}
+      propertyPath: musicTracks.Array.data[2].trackName
+      value: Victory
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -48871,11 +48903,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 735821969728833179, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 37.979996
+      value: 36.86
       objectReference: {fileID: 0}
     - target: {fileID: 735821969728833179, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.56
+      value: -2.74
       objectReference: {fileID: 0}
     - target: {fileID: 735821969728833179, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
       propertyPath: m_LocalPosition.z
@@ -48912,6 +48944,10 @@ PrefabInstance:
     - target: {fileID: 3050590093295759711, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
       propertyPath: m_Name
       value: NPC_BadDeath
+      objectReference: {fileID: 0}
+    - target: {fileID: 3050590093295759711, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3050590093295759711, guid: 754235921cb20d0478378e5d65fb8479, type: 3}
       propertyPath: m_TagString
