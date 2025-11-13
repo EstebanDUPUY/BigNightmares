@@ -44,7 +44,7 @@ public class S_SoundManager : MonoBehaviour
     }
     
     // Sound to destroy
-    public AudioClip destroySound;
+    // public AudioClip destroySound;
 
 
 }

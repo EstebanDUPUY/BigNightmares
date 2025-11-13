@@ -66,6 +66,12 @@ MonoBehaviour:
   musicTracks:
   - trackName: MainMenu
     clip: {fileID: 8300000, guid: c9ba40544756fd04e8be0d82b4dd291a, type: 3}
+  - trackName: GameOver
+    clip: {fileID: 8300000, guid: c8866bf10985b0e4a9be564e8f745574, type: 3}
+  - trackName: Victory
+    clip: {fileID: 8300000, guid: f1712ca5190c8ea44b173435e6bec2bb, type: 3}
+  - trackName: Level
+    clip: {fileID: 8300000, guid: 9e2cc8f36c4acb44e922cc56ffe496e8, type: 3}
 --- !u!114 &2489552187559122205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80,6 +86,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::S_SoundManager
   sfx2DLibrary: {fileID: 5774533430187165900}
   sfx2DSource: {fileID: 4947986851041741000}
+  destroySound: {fileID: 0}
 --- !u!114 &5774533430187165900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,9 +100,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::S_SoundLibrary
   soundEffects:
+  - groupID: Walking
+    clip:
+    - {fileID: 8300000, guid: 86b0c07716e608c4cb9ad7a722ca0daf, type: 3}
   - groupID: Menu_Validate
     clip:
-    - {fileID: 8300000, guid: 45f0468cf36f7ca4c8d2ed38a73e5955, type: 3}
+    - {fileID: 8300000, guid: 035b29595f3d93a458eae6caaecade1d, type: 3}
 --- !u!1 &2230339467136517587
 GameObject:
   m_ObjectHideFlags: 0

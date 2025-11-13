@@ -1,5 +1,5 @@
 using TMPro;
-using UnityEditor.Rendering;
+// using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -16,7 +16,7 @@ public class TalkSystem : MonoBehaviour
     public TextMeshProUGUI dialogText;
     public TextMeshProUGUI nameText;
     public Image imgChara;
-    public bool isNecromancer = true;
+    // public bool isNecromancer = true;
 
     public GameObject[] choicesBtn;
 

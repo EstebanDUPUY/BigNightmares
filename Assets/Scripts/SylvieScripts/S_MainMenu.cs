@@ -14,7 +14,6 @@ public class S_MainMenu : MonoBehaviour
 
     public void Start()
     {
-        
         S_MusicManager.Instance.PlayMusic("MainMenu");
         // Afficher le menu principal
         mainMenu.SetActive(true);
