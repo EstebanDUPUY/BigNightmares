@@ -21,7 +21,7 @@ public class S_MainMenu : MonoBehaviour
     public void Play()
     {
         SceneManager.LoadScene("Mathieu");
-        S_SoundManager.Instance.PlaySound3D("Menu_Validate", transform.position);
+        // S_SoundManager.Instance.PlaySound3D("Menu_Validate", transform.position);
     }
 
     public void Options()
@@ -29,32 +29,31 @@ public class S_MainMenu : MonoBehaviour
         Debug.Log("Options menu n'est pas implémenté.");
         // Ne pas afficher le menu principal
         mainMenu.SetActive(false);
-        S_SoundManager.Instance.PlaySound3D("Menu_Validate", transform.position);
+        // S_SoundManager.Instance.PlaySound3D("Menu_Validate", transform.position);
 
     }
     
     public void Credits()
     {
-        S_SoundManager.Instance.PlaySound3D("Menu_Validate", transform.position);
         SceneManager.LoadScene("Credits");
+        // S_SoundManager.Instance.PlaySound3D("Menu_Validate", transform.position);
         // S_MusicManager.Instance.PlayMusic("Credits");
 
     }
 
     public void Quit()
     {
-        S_SoundManager.Instance.PlaySound3D("Menu_Validate", transform.position);
+        // S_SoundManager.Instance.PlaySound3D("Menu_Validate", transform.position);
         Application.Quit();
     }
 
     public void BackToMainMenu()
     {
-        S_SoundManager.Instance.PlaySound3D("Menu_Validate", transform.position);
+        // S_SoundManager.Instance.PlaySound3D("Menu_Validate", transform.position);
         // Afficher le menu principal
         mainMenu.SetActive(true);
         // Cacher le menu des options
         optionsMenu.SetActive(false);
-
     }
 
    
